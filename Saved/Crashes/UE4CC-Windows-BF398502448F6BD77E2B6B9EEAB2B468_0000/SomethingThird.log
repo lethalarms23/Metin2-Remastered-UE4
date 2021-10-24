@@ -1,0 +1,1498 @@
+﻿Log file open, 10/19/21 14:02:16
+LogInit: Display: Running engine for game: SomethingThird
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.374072
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AssetBuilderTools
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i5-7600 CPU @ 3.50GHz, GPU: Radeon RX 580 Series
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.10.19-13.02.17:517][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.10.19-13.02.17:518][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:518][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:521][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.19-13.02.17:521][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.10.19-13.02.17:522][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.10.19-13.02.17:522][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.19-13.02.17:522][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.10.19-13.02.17:522][  0]LogHAL: Display: Platform has ~ 16 GB [17137160192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.10.19-13.02.17:522][  0]LogInit: Going up to parent DeviceProfile []
+[2021.10.19-13.02.17:522][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.10.19-13.02.17:523][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Scalability.ini]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.10.19-13.02.17:524][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/UnrealProjects/SomethingThird/Saved/Config/Windows/Engine.ini]
+[2021.10.19-13.02.17:524][  0]LogInit: Computer: DESKTOP-SIJUA6C
+[2021.10.19-13.02.17:524][  0]LogInit: User: LethalArms
+[2021.10.19-13.02.17:524][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.10.19-13.02.17:524][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.10.19-13.02.17:525][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.10.19-13.02.17:525][  0]LogMemory: Platform Memory Stats for Windows
+[2021.10.19-13.02.17:525][  0]LogMemory: Process Physical Memory: 116.20 MB used, 116.20 MB peak
+[2021.10.19-13.02.17:525][  0]LogMemory: Process Virtual Memory: 97.89 MB used, 97.89 MB peak
+[2021.10.19-13.02.17:525][  0]LogMemory: Physical Memory: 8957.27 MB used,  7386.00 MB free, 16343.27 MB total
+[2021.10.19-13.02.17:525][  0]LogMemory: Virtual Memory: 5108.84 MB used,  134212616.00 MB free, 134217728.00 MB total
+[2021.10.19-13.02.17:531][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.10.19-13.02.17:563][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.10.19-13.02.17:564][  0]LogInit: Using OS detected language (en-US).
+[2021.10.19-13.02.17:564][  0]LogInit: Using OS detected locale (en-US).
+[2021.10.19-13.02.17:566][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.10.19-13.02.17:777][  0]LogInit: Setting process to per monitor DPI aware
+[2021.10.19-13.02.17:801][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.10.19-13.02.17:801][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.10.19-13.02.17:979][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.19-13.02.17:979][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.10.19-13.02.17:979][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.10.19-13.02.17:979][  0]LogD3D11RHI: D3D11 adapters:
+[2021.10.19-13.02.18:049][  0]LogD3D11RHI:    0. 'Radeon RX 580 Series' (Feature Level 11_0)
+[2021.10.19-13.02.18:049][  0]LogD3D11RHI:       8171/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2021.10.19-13.02.18:052][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.10.19-13.02.18:052][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.10.19-13.02.18:052][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.10.19-13.02.18:058][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.10.19-13.02.18:058][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2021.10.19-13.02.18:058][  0]LogWindows: EnumDisplayDevices:
+[2021.10.19-13.02.18:059][  0]LogWindows:    0. 'Radeon RX 580 Series' (P:1 D:1)
+[2021.10.19-13.02.18:059][  0]LogWindows:    1. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:059][  0]LogWindows:    2. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:060][  0]LogWindows:    3. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:060][  0]LogWindows:    4. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:061][  0]LogWindows:    5. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:061][  0]LogWindows:    6. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:061][  0]LogWindows:    7. 'Radeon RX 580 Series' (P:0 D:0)
+[2021.10.19-13.02.18:062][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2021.10.19-13.02.18:062][  0]LogD3D11RHI:     Adapter Name: Radeon RX 580 Series
+[2021.10.19-13.02.18:062][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 21.3.1 (internal:27.20.15003.1004, unified:27.20.15003.1004)
+[2021.10.19-13.02.18:062][  0]LogD3D11RHI:      Driver Date: 3-10-2021
+[2021.10.19-13.02.18:062][  0]LogRHI: Texture pool is 4862 MB (70% of 6946 MB)
+[2021.10.19-13.02.18:163][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.10.19-13.02.18:163][  0]LogD3D11RHI: Async texture creation enabled
+[2021.10.19-13.02.18:163][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.10.19-13.02.18:175][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2021.10.19-13.02.18:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.10.19-13.02.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.10.19-13.02.18:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.10.19-13.02.18:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.10.19-13.02.18:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.10.19-13.02.18:580][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.10.19-13.02.18:589][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.10.19-13.02.18:599][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.10.19-13.02.18:608][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.10.19-13.02.18:618][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.10.19-13.02.18:628][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.10.19-13.02.18:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.10.19-13.02.18:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.10.19-13.02.18:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.10.19-13.02.18:670][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.10.19-13.02.18:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.10.19-13.02.18:689][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.10.19-13.02.18:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.10.19-13.02.18:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.10.19-13.02.18:708][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.10.19-13.02.18:718][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.10.19-13.02.18:786][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../UnrealProjects/SomethingThird/Intermediate/Shaders/WorkingDirectory/13112/).
+[2021.10.19-13.02.18:786][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LethalArms/AppData/Local/Temp/UnrealShaderWorkingDir/B5C1CC0C446216E3A308AAB9C9F64D6B/'.
+[2021.10.19-13.02.18:787][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.10.19-13.02.18:787][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.10.19-13.02.18:787][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.10.19-13.02.19:618][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.10.19-13.02.19:699][  0]LogDerivedDataCache: Loaded boot cache 0.08s 101MB C:/Users/LethalArms/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.10.19-13.02.19:700][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LethalArms/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.10.19-13.02.19:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UnrealProjects/SomethingThird/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.10.19-13.02.19:779][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.10.19-13.02.19:779][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../UnrealProjects/SomethingThird/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.19-13.02.19:779][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.10.19-13.02.19:789][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.10.19-13.02.19:789][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.10.19-13.02.19:789][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.10.19-13.02.19:790][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LethalArms/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.10.19-13.02.19:790][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.10.19-13.02.19:790][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.10.19-13.02.19:837][  0]LogSlate: Using FreeType 2.10.0
+[2021.10.19-13.02.19:838][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.10.19-13.02.19:868][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.10.19-13.02.20:067][  0]LogInit: Selected Device Profile: [Windows]
+[2021.10.19-13.02.20:268][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.10.19-13.02.20:268][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.10.19-13.02.20:268][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.10.19-13.02.20:268][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.10.19-13.02.20:269][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.10.19-13.02.20:283][  0]LogNetVersion: SomethingThird 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2381071758)
+[2021.10.19-13.02.20:751][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002E1FC8EF880), frame # 0
+[2021.10.19-13.02.20:751][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E1FC909080), frame # 0
+[2021.10.19-13.02.20:752][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E1FCD48800), frame # 0
+[2021.10.19-13.02.21:956][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 1.198685 seconds
+[2021.10.19-13.02.21:962][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.10.19-13.02.21:962][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.10.19-13.02.21:962][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.10.19-13.02.22:441][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.10.19-13.02.22:446][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.10.19-13.02.22:562][  0]SourceControl: Source control is disabled
+[2021.10.19-13.02.22:562][  0]SourceControl: Source control is disabled
+[2021.10.19-13.02.22:565][  0]SourceControl: Source control is disabled
+[2021.10.19-13.02.22:569][  0]SourceControl: Source control is disabled
+[2021.10.19-13.02.22:576][  0]SourceControl: Source control is disabled
+[2021.10.19-13.02.25:927][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.10.19-13.02.25:951][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.19-13.02.25:951][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.10.19-13.02.26:006][  0]LogOcInput: OculusInput pre-init called
+[2021.10.19-13.02.26:017][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.10.19-13.02.26:017][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.10.19-13.02.26:082][  0]LogClass: Warning: FActorRandomTransformDataRecord::Seed is not initialized properly
+[2021.10.19-13.02.26:082][  0]LogClass: Display: 1 Uninitialized script stuct members found
+[2021.10.19-13.02.26:082][  0]LogAutomationTest: Warning: FActorRandomTransformDataRecord::Seed is not initialized properly
+[2021.10.19-13.02.26:083][  0]LogEngine: Initializing Engine...
+[2021.10.19-13.02.26:084][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.10.19-13.02.26:084][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.10.19-13.02.26:086][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.10.19-13.02.26:233][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.10.19-13.02.26:242][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.10.19-13.02.26:242][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E189EDBC00), frame # 0
+[2021.10.19-13.02.26:242][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E189F20B80), frame # 0
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.10.19-13.02.26:260][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.10.19-13.02.26:260][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.10.19-13.02.26:260][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.10.19-13.02.26:274][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.10.19-13.02.26:274][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.10.19-13.02.26:326][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.10.19-13.02.26:328][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.10.19-13.02.26:332][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.10.19-13.02.26:332][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.10.19-13.02.26:333][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.10.19-13.02.26:336][  0]LogInit: FAudioDevice initialized.
+[2021.10.19-13.02.26:336][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.10.19-13.02.26:436][  0]LogDerivedDataCache: Saved boot cache 0.10s 101MB C:/Users/LethalArms/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.10.19-13.02.26:438][  0]LogInit: Texture streaming: Enabled
+[2021.10.19-13.02.26:459][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.10.19-13.02.26:459][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.10.19-13.02.26:463][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.10.19-13.02.26:603][  0]LogInit: Transaction tracking system initialized
+[2021.10.19-13.02.26:626][  0]BlueprintLog: New page: Editor Load
+[2021.10.19-13.02.26:759][  0]LocalizationService: Localization service is disabled
+[2021.10.19-13.02.27:347][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.10.19-13.02.27:348][  0]LogCook: Display: Mobile HDR setting 1
+[2021.10.19-13.02.27:359][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/SomethingThird/Content/' took 0.04s
+[2021.10.19-13.02.27:817][  0]SourceControl: Source control is disabled
+[2021.10.19-13.02.27:817][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.848
+[2021.10.19-13.02.27:817][  0]Cmd: MAP LOAD FILE="../../../../UnrealProjects/SomethingThird/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.19-13.02.27:818][  0]LightingResults: New page: Lighting Build
+[2021.10.19-13.02.27:818][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.02.27:818][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.02.27:818][  0]MapCheck: New page: Map Check
+[2021.10.19-13.02.27:818][  0]LightingResults: New page: Lighting Build
+[2021.10.19-13.02.27:826][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002E189EDBC00), frame # 0
+[2021.10.19-13.02.27:827][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002E189F20B80), frame # 0
+[2021.10.19-13.02.27:827][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.10.19-13.02.33:961][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.10.19-13.02.33:962][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002E191CC3E00), frame # 0
+[2021.10.19-13.02.33:962][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002E191D0DBC0), frame # 0
+[2021.10.19-13.02.34:629][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.19-13.02.34:663][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.10.19-13.02.34:663][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.19-13.02.34:663][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.124ms to complete.
+[2021.10.19-13.02.34:663][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.845
+[2021.10.19-13.02.34:713][  0]LogUnrealEdMisc: Total Editor Startup Time, took 20.743
+[2021.10.19-13.02.35:756][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-13.02.35:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-13.02.35:819][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-13.02.35:827][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.10.19-13.02.36:133][  0]LogCollectionManager: Loaded 0 collections in 0.027481 seconds
+[2021.10.19-13.02.36:474][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/SomethingThird/Saved/Collections/' took 0.00s
+[2021.10.19-13.02.36:474][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/SomethingThird/Content/Developers/LethalArms/Collections/' took 0.00s
+[2021.10.19-13.02.36:474][  0]LogFileCache: Scanning file cache for directory 'D:/UnrealProjects/SomethingThird/Content/Collections/' took 0.00s
+[2021.10.19-13.02.36:474][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3442 classes and 829 folders.
+[2021.10.19-13.02.36:668][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.10.19-13.02.39:767][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.10.19-13.02.39:882][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.10.19-13.02.42:103][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.10.19-13.02.42:121][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.10.19-13.02.42:186][  0]LogSlate: Took 0.025447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.10.19-13.02.43:088][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.10.19-13.02.44:851][  0]LogSlate: Window 'Tutorials' being destroyed
+[2021.10.19-13.02.44:864][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.10.19-13.02.44:864][  0]LogLoad: (Engine Initialization) Total time: 30.89 seconds
+[2021.10.19-13.02.44:864][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.10.19-13.02.44:962][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.10.19-13.02.45:131][  0]LogSlate: Took 0.017029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.19-13.02.45:236][  1]LogAssetRegistry: Asset discovery search completed in 25.3684 seconds
+[2021.10.19-13.02.45:239][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.10.19-13.10.16:198][924]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.10.19-13.10.16:248][924]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Downloads\SuraNovice\SuraNoviceMixamo.fbx)
+[2021.10.19-13.10.16:481][924]LogFbx: Loading FBX Scene from D:\Downloads\SuraNovice\SuraNoviceMixamo.fbx
+[2021.10.19-13.10.16:545][924]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.19-13.10.31:780][924]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.10.19-13.10.31:983][924]LogFbx: Valid bind pose for Pose (BindPose) - face_1
+[2021.10.19-13.10.32:206][924]LogMaterial: Display: Material /Game/MetinCharacters/Material_003.Material_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.10.32:207][924]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.10.32:323][924]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2021.10.19-13.10.32:323][924]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.10.19-13.10.32:323][924]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2021.10.19-13.10.32:420][924]Error: DDS uses an unsupported format.
+[2021.10.19-13.10.32:420][924]Error: Texture import failed
+[2021.10.19-13.10.32:493][924]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.10.32:520][924]LogMaterial: Display: Material /Game/MetinCharacters/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.10.32:521][924]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.10.32:559][924]Error: DDS uses an unsupported format.
+[2021.10.19-13.10.32:559][924]Error: Texture import failed
+[2021.10.19-13.10.32:561][924]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.10.32:584][924]LogMaterial: Display: Material /Game/MetinCharacters/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.10.32:585][924]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.10.32:609][924]Error: DDS uses an unsupported format.
+[2021.10.19-13.10.32:609][924]Error: Texture import failed
+[2021.10.19-13.10.32:610][924]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.10.32:644][924]LogMaterial: Display: Material /Game/MetinCharacters/Material_006.Material_006 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.10.32:647][924]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.10.32:672][924]Error: DDS uses an unsupported format.
+[2021.10.19-13.10.32:672][924]Error: Texture import failed
+[2021.10.19-13.10.32:674][924]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.10.32:708][924]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2021.10.19-13.10.32:847][924]LogSkeletalMesh: Section 0: 230 vertices, 3 active bones
+[2021.10.19-13.10.32:847][924]LogSkeletalMesh: Section 1: 212 vertices, 8 active bones
+[2021.10.19-13.10.32:847][924]LogSkeletalMesh: Section 2: 1077 vertices, 28 active bones
+[2021.10.19-13.10.32:847][924]LogSkeletalMesh: Section 3: 126 vertices, 5 active bones
+[2021.10.19-13.10.32:848][924]LogSkeletalMesh: Section 0: Material=0, 344 triangles
+[2021.10.19-13.10.32:848][924]LogSkeletalMesh: Section 1: Material=1, 329 triangles
+[2021.10.19-13.10.32:848][924]LogSkeletalMesh: Section 2: Material=2, 1542 triangles
+[2021.10.19-13.10.32:848][924]LogSkeletalMesh: Section 3: Material=3, 170 triangles
+[2021.10.19-13.10.32:868][924]LogSkeletalMesh: Building Skeletal Mesh SuraNoviceMixamo...
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 0: 230 vertices, 3 active bones
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 1: 212 vertices, 8 active bones
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 2: 1077 vertices, 28 active bones
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 3: 126 vertices, 5 active bones
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 0: Material=0, 344 triangles
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 1: Material=1, 329 triangles
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 2: Material=2, 1542 triangles
+[2021.10.19-13.10.32:920][924]LogSkeletalMesh: Section 3: Material=3, 170 triangles
+[2021.10.19-13.10.32:927][924]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo
+[2021.10.19-13.10.33:053][924]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.10.33:053][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.10.33:062][924]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.10.19-13.10.33:316][924]LogSlate: Took 0.036339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.10.19-13.10.38:949][395]LogSlate: Window 'Message Log' being destroyed
+[2021.10.19-13.10.38:952][395]LogSlate: Window 'Message Log' being destroyed
+[2021.10.19-13.10.52:113][344]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.10.19-13.10.54:454][344]LogSlate: Window 'Choose Skeleton' being destroyed
+[2021.10.19-13.11.04:403][728]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 156
+[2021.10.19-13.11.09:687][801]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 146
+[2021.10.19-13.11.12:055][807]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 136
+[2021.10.19-13.11.22:707][970]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 126
+[2021.10.19-13.11.23:993][976]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 116
+[2021.10.19-13.11.30:819][  1]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 106
+[2021.10.19-13.11.40:179][ 81]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 96
+[2021.10.19-13.11.40:355][ 83]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 86
+[2021.10.19-13.11.45:381][116]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 76
+[2021.10.19-13.11.58:385][196]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 66
+[2021.10.19-13.11.58:610][199]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2021.10.19-13.11.59:908][210]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 46
+[2021.10.19-13.12.10:619][298]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2021.10.19-13.12.11:398][307]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2021.10.19-13.12.11:447][308]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 17
+[2021.10.19-13.12.16:203][365]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2021.10.19-13.12.18:945][405]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2021.10.19-13.12.19:041][406]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2021.10.19-13.12.20:554][432]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2021.10.19-13.12.21:824][447]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2021.10.19-13.12.45:108][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.10.19-13.12.45:110][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.010
+[2021.10.19-13.12.45:128][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/SuraNoviceMixamo] ([1] browsable assets)...
+[2021.10.19-13.12.45:157][565]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo]
+[2021.10.19-13.12.45:157][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/SuraNoviceMixamo]
+[2021.10.19-13.12.45:323][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/SuraNoviceMixamo_Auto171B7890F4B35EB986A742F8D02BAAB9A.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/SuraNoviceMixamo_Auto1.uasset'
+[2021.10.19-13.12.45:324][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_003] ([1] browsable assets)...
+[2021.10.19-13.12.45:352][565]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_003.Material_003]
+[2021.10.19-13.12.45:352][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_003]
+[2021.10.19-13.12.45:361][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_003_Auto1D458B6E64B5931894798888A22EFC2D9.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_003_Auto1.uasset'
+[2021.10.19-13.12.45:363][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset] ([1] browsable assets)...
+[2021.10.19-13.12.45:377][565]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset.SuraNoviceMixamo_PhysicsAsset]
+[2021.10.19-13.12.45:377][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset]
+[2021.10.19-13.12.45:406][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/SuraNoviceMixamo_PhysicsAsset_AuC2230BD44E69EFC982E1568EC20C8FFC.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset_Auto1.uasset'
+[2021.10.19-13.12.45:409][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_002] ([1] browsable assets)...
+[2021.10.19-13.12.45:429][565]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_002.Material_002]
+[2021.10.19-13.12.45:429][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_002]
+[2021.10.19-13.12.45:437][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_002_Auto1895E271F4E311938A71BBCA4E3A149C2.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_002_Auto1.uasset'
+[2021.10.19-13.12.45:438][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MetinCharacters/SuraNoviceMixamo_Skeleton] ([1] browsable assets)...
+[2021.10.19-13.12.45:438][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/SuraNoviceMixamo_Skeleton]
+[2021.10.19-13.12.45:443][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/SuraNoviceMixamo_Skeleton_Auto1CF45EBD74ADCF5BE125EDCB22586558F.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/SuraNoviceMixamo_Skeleton_Auto1.uasset'
+[2021.10.19-13.12.45:451][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_001] ([1] browsable assets)...
+[2021.10.19-13.12.45:470][565]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_001.Material_001]
+[2021.10.19-13.12.45:470][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_001]
+[2021.10.19-13.12.45:480][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_001_Auto1C590CF27402CF36907242FA33784D877.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_001_Auto1.uasset'
+[2021.10.19-13.12.45:480][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_006] ([1] browsable assets)...
+[2021.10.19-13.12.45:497][565]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_006.Material_006]
+[2021.10.19-13.12.45:497][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_006]
+[2021.10.19-13.12.45:507][565]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_006_Auto198246968440811C567C7E294D1AD451A.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_006_Auto1.uasset'
+[2021.10.19-13.12.45:508][565]LogFileHelpers: Auto-saving content packages took 0.397
+[2021.10.19-13.13.26:992][901]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2021.10.19-13.13.27:217][901]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall7)
+[2021.10.19-13.14.23:228][907]LogEditorViewport: Clicking on Actor (context menu): PostProcessVolume (PostProcessVolume)
+[2021.10.19-13.14.46:038][478]Cmd: DELETE
+[2021.10.19-13.14.46:038][478]Cmd: ACTOR DELETE
+[2021.10.19-13.14.47:031][478]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2021.10.19-13.14.47:040][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.19-13.14.47:044][478]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2021.10.19-13.14.51:995][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.10.19-13.14.53:590][844]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.19-13.14.54:400][844]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/MetinCharacters/Material_001.Material_001
+	Asset Name: /Game/MetinCharacters/Material_002.Material_002
+	Asset Name: /Game/MetinCharacters/Material_003.Material_003
+	Asset Name: /Game/MetinCharacters/Material_006.Material_006
+	Asset Name: /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo
+	Asset Name: /Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset.SuraNoviceMixamo_PhysicsAsset
+	Asset Name: /Game/MetinCharacters/SuraNoviceMixamo_Skeleton.SuraNoviceMixamo_Skeleton
+[2021.10.19-13.14.56:462][844]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2021.10.19-13.18.19:233][573]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Downloads\SuraNovice\SuraNoviceMixamo.fbx)
+[2021.10.19-13.18.19:242][573]LogFbx: Loading FBX Scene from D:\Downloads\SuraNovice\SuraNoviceMixamo.fbx
+[2021.10.19-13.18.19:263][573]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.19-13.18.22:746][573]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.10.19-13.18.22:770][573]LogFbx: Valid bind pose for Pose (BindPose) - face_1
+[2021.10.19-13.18.22:772][573]LogMaterial: Display: Material /Game/MetinCharacters/Material_003.Material_003 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.18.22:773][573]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.18.22:795][573]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2021.10.19-13.18.22:796][573]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.10.19-13.18.22:796][573]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2021.10.19-13.18.22:796][573]Error: DDS uses an unsupported format.
+[2021.10.19-13.18.22:796][573]Error: Texture import failed
+[2021.10.19-13.18.22:798][573]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.18.22:825][573]LogMaterial: Display: Material /Game/MetinCharacters/Material_002.Material_002 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.18.22:826][573]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.18.22:846][573]Error: DDS uses an unsupported format.
+[2021.10.19-13.18.22:846][573]Error: Texture import failed
+[2021.10.19-13.18.22:848][573]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.18.22:877][573]LogMaterial: Display: Material /Game/MetinCharacters/Material_001.Material_001 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.18.22:878][573]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.18.22:902][573]Error: DDS uses an unsupported format.
+[2021.10.19-13.18.22:902][573]Error: Texture import failed
+[2021.10.19-13.18.22:905][573]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.18.22:928][573]LogMaterial: Display: Material /Game/MetinCharacters/Material_006.Material_006 needed to have new flag set bUsedWithSkeletalMesh !
+[2021.10.19-13.18.22:929][573]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.18.22:948][573]Error: DDS uses an unsupported format.
+[2021.10.19-13.18.22:948][573]Error: Texture import failed
+[2021.10.19-13.18.22:950][573]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.18.22:978][573]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2021.10.19-13.18.23:041][573]LogSkeletalMesh: Section 0: 230 vertices, 3 active bones
+[2021.10.19-13.18.23:041][573]LogSkeletalMesh: Section 1: 212 vertices, 8 active bones
+[2021.10.19-13.18.23:041][573]LogSkeletalMesh: Section 2: 1077 vertices, 28 active bones
+[2021.10.19-13.18.23:041][573]LogSkeletalMesh: Section 3: 126 vertices, 5 active bones
+[2021.10.19-13.18.23:042][573]LogSkeletalMesh: Section 0: Material=0, 344 triangles
+[2021.10.19-13.18.23:042][573]LogSkeletalMesh: Section 1: Material=1, 329 triangles
+[2021.10.19-13.18.23:042][573]LogSkeletalMesh: Section 2: Material=2, 1542 triangles
+[2021.10.19-13.18.23:042][573]LogSkeletalMesh: Section 3: Material=3, 170 triangles
+[2021.10.19-13.18.23:042][573]LogSkeletalMesh: Building Skeletal Mesh SuraNoviceMixamo...
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 0: 230 vertices, 3 active bones
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 1: 212 vertices, 8 active bones
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 2: 1077 vertices, 28 active bones
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 3: 126 vertices, 5 active bones
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 0: Material=0, 344 triangles
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 1: Material=1, 329 triangles
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 2: Material=2, 1542 triangles
+[2021.10.19-13.18.23:112][573]LogSkeletalMesh: Section 3: Material=3, 170 triangles
+[2021.10.19-13.18.23:115][573]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo
+[2021.10.19-13.18.23:120][573]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.18.23:120][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.18.23:128][573]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.10.19-13.18.23:155][573]LogFactory: FactoryCreateFile: SkeletalMesh with FbxFactory (0 0 D:\Downloads\SuraNovice\Great Sword Idle.fbx)
+[2021.10.19-13.18.23:172][573]LogFbx: Loading FBX Scene from D:\Downloads\SuraNovice\Great Sword Idle.fbx
+[2021.10.19-13.18.23:211][573]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.19-13.18.23:214][573]LogFbx: Valid bind pose for Pose (BindPose) - face_1
+[2021.10.19-13.18.23:224][573]LogFbx: Warning: Bones digested - 33  Depth of hierarchy - 12
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 0: 230 vertices, 3 active bones
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 1: 212 vertices, 8 active bones
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 2: 1077 vertices, 28 active bones
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 3: 126 vertices, 5 active bones
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 0: Material=0, 344 triangles
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 1: Material=1, 329 triangles
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 2: Material=2, 1542 triangles
+[2021.10.19-13.18.23:280][573]LogSkeletalMesh: Section 3: Material=3, 170 triangles
+[2021.10.19-13.18.23:282][573]LogSkeletalMesh: Building Skeletal Mesh Great_Sword_Idle...
+[2021.10.19-13.18.23:336][573]LogSkeletalMesh: Section 0: 230 vertices, 3 active bones
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 1: 212 vertices, 8 active bones
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 2: 1077 vertices, 28 active bones
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 3: 126 vertices, 5 active bones
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 0: Material=0, 344 triangles
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 1: Material=1, 329 triangles
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 2: Material=2, 1542 triangles
+[2021.10.19-13.18.23:337][573]LogSkeletalMesh: Section 3: Material=3, 170 triangles
+[2021.10.19-13.18.23:340][573]LogSkeletalMesh: Built Skeletal Mesh [0.06s] /Game/MetinCharacters/Great_Sword_Idle.Great_Sword_Idle
+[2021.10.19-13.18.23:348][573]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.18.23:348][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.18.23:357][573]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.10.19-13.18.23:360][573]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\SuraNovice\sura_face_result.png)
+[2021.10.19-13.18.23:403][573]LogTexture: Display: Building textures: sura_face_result (AutoDXT, 256X256)
+[2021.10.19-13.18.23:433][573]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\SuraNovice\sura_face_result_result.png)
+[2021.10.19-13.18.23:436][573]LogTexture: Display: Building textures: sura_face_result_result (AutoDXT, 256X256)
+[2021.10.19-13.18.23:449][573]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\SuraNovice\sura_novice_black_result.png)
+[2021.10.19-13.18.23:458][573]LogTexture: Display: Building textures: sura_novice_black_result (AutoDXT, 512X512)
+[2021.10.19-13.18.25:977][774]LogSlate: Window 'Message Log' being destroyed
+[2021.10.19-13.18.25:982][774]LogSlate: Window 'Message Log' being destroyed
+[2021.10.19-13.18.31:793][340]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.10.19-13.18.34:120][340]LogSlate: Window 'Choose Skeleton' being destroyed
+[2021.10.19-13.18.34:612][358]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 156
+[2021.10.19-13.18.38:913][740]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 146
+[2021.10.19-13.18.45:101][310]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2021.10.19-13.18.47:734][310]LogSlate: Window 'Choose Skeleton' being destroyed
+[2021.10.19-13.18.57:509][222]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 136
+[2021.10.19-13.18.57:635][237]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 126
+[2021.10.19-13.19.00:388][535]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 116
+[2021.10.19-13.19.01:743][635]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo
+[2021.10.19-13.19.01:953][635]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.10.19-13.19.02:664][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.19-13.19.02:782][635]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2021.10.19-13.19.03:061][635]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.10.19-13.19.03:622][635]LogSlate: Took 0.015854 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.19-13.19.03:689][635]LogRenderer: Reallocating scene render targets to support 1208x884 Format 10 NumSamples 1 (Frame:1).
+[2021.10.19-13.19.11:868][101]LogSlate: Window 'SuraNoviceMixamo' being destroyed
+[2021.10.19-13.19.11:874][101]LogSlate: Window 'SuraNoviceMixamo' being destroyed
+[2021.10.19-13.19.11:875][101]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.19.11:875][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.19.14:556][321]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MetinCharacters/Material_001.Material_001
+[2021.10.19-13.19.14:583][321]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.19.14:910][321]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.19.14:935][321]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.19.14:986][321]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.10.19-13.19.37:673][372]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.19.37:680][372]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.19.37:699][372]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.19.37:705][372]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.19.37:719][372]LogSlate: Window 'Color Picker' being destroyed
+[2021.10.19-13.19.40:563][650]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 137
+[2021.10.19-13.19.40:845][681]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 136
+[2021.10.19-13.19.41:693][750]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 135
+[2021.10.19-13.19.42:683][837]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.19.45:474][117]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 134
+[2021.10.19-13.19.46:953][282]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 133
+[2021.10.19-13.19.47:328][325]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 132
+[2021.10.19-13.19.50:250][657]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 131
+[2021.10.19-13.19.51:765][827]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 130
+[2021.10.19-13.19.52:070][862]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 129
+[2021.10.19-13.19.52:980][965]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 128
+[2021.10.19-13.19.56:164][321]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 127
+[2021.10.19-13.19.56:317][337]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 126
+[2021.10.19-13.19.56:808][392]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 125
+[2021.10.19-13.19.59:809][734]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 124
+[2021.10.19-13.20.00:857][849]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 123
+[2021.10.19-13.20.00:929][857]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 122
+[2021.10.19-13.20.02:807][943]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 121
+[2021.10.19-13.20.03:831][947]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 120
+[2021.10.19-13.20.04:003][948]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 119
+[2021.10.19-13.20.04:348][952]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 118
+[2021.10.19-13.20.04:467][953]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 117
+[2021.10.19-13.20.04:758][956]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 116
+[2021.10.19-13.20.05:188][962]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 115
+[2021.10.19-13.20.05:269][963]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 114
+[2021.10.19-13.20.05:269][963]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 113
+[2021.10.19-13.20.06:076][972]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 112
+[2021.10.19-13.20.06:140][973]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 111
+[2021.10.19-13.20.06:407][976]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 110
+[2021.10.19-13.20.07:120][984]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 109
+[2021.10.19-13.20.07:120][984]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 108
+[2021.10.19-13.20.07:252][986]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 107
+[2021.10.19-13.20.07:984][995]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 106
+[2021.10.19-13.20.08:319][999]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 96
+[2021.10.19-13.20.08:319][999]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 86
+[2021.10.19-13.20.08:396][999]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.10.19-13.20.08:396][999]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.10.19-13.20.08:396][999]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.10.19-13.20.08:396][999]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2021.10.19-13.20.08:396][999]MaterialEditorStats: Texture samplers: 2/16
+[2021.10.19-13.20.19:656][ 82]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 76
+[2021.10.19-13.20.22:551][ 93]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 66
+[2021.10.19-13.20.22:551][ 93]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 56
+[2021.10.19-13.20.40:060][610]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
+[2021.10.19-13.20.45:115][878]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2021.10.19-13.20.45:663][883]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2021.10.19-13.20.50:915][989]LogSlate: Window 'Message' being destroyed
+[2021.10.19-13.20.50:920][989]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/MetinCharacters/Material_001.Material_001
+(Selecting 'No' will cause all changes to be lost!)
+[2021.10.19-13.20.50:920][989]LogSlate: Window 'Material_001' being destroyed
+[2021.10.19-13.20.50:922][989]LogSlate: Window 'Material_001' being destroyed
+[2021.10.19-13.20.50:953][989]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.20.50:953][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.20.52:024][ 63]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MetinCharacters/Material_001.Material_001
+[2021.10.19-13.20.52:025][ 63]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.20.52:114][ 63]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.20.52:131][ 63]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.20.52:153][ 63]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.21.01:512][805]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.21.01:519][805]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.21.01:533][805]LogSlate: Window 'Color Picker' being destroyed
+[2021.10.19-13.21.18:333][945]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 48
+[2021.10.19-13.21.19:139][957]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 47
+[2021.10.19-13.21.19:961][971]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
+[2021.10.19-13.21.20:234][975]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
+[2021.10.19-13.21.20:561][979]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
+[2021.10.19-13.21.20:875][982]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
+[2021.10.19-13.21.21:135][983]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 42
+[2021.10.19-13.21.21:957][984]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
+[2021.10.19-13.21.22:035][984]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2021.10.19-13.21.22:232][984]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
+[2021.10.19-13.21.23:179][984]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 38
+[2021.10.19-13.21.23:194][984]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 37
+[2021.10.19-13.21.23:440][986]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 36
+[2021.10.19-13.21.24:130][993]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2021.10.19-13.21.24:303][995]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2021.10.19-13.21.24:304][995]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2021.10.19-13.21.24:842][  3]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 32
+[2021.10.19-13.21.25:116][  6]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2021.10.19-13.21.25:248][  7]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2021.10.19-13.21.28:645][304]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2021.10.19-13.21.29:045][343]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 28
+[2021.10.19-13.21.31:102][568]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2021.10.19-13.21.33:609][848]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 26
+[2021.10.19-13.21.34:039][897]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2021.10.19-13.21.34:299][927]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2021.10.19-13.21.38:054][344]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.21.38:067][344]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.21.38:069][344]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.21.38:100][344]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.21.38:103][344]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.21.38:106][344]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.21.38:106][344]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.10.19-13.21.38:106][344]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.10.19-13.21.38:113][344]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2021.10.19-13.21.38:116][344]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.21.38:120][344]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2021.10.19-13.21.40:584][570]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 20
+[2021.10.19-13.21.42:204][720]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2021.10.19-13.21.43:738][844]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2021.10.19-13.21.45:384][987]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2021.10.19-13.21.46:354][ 87]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2021.10.19-13.21.46:946][151]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.10.19-13.21.47:239][180]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.21.47:247][180]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.10.19-13.21.47:247][180]LogMaterial: Display: 	(Node TextureSample) Coercion failed: Material.VectorExpressions[2].rgb: float3 -> float2
+[2021.10.19-13.21.47:253][180]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.21.47:257][180]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.21.47:257][180]LogMaterial: Warning: /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.10.19-13.21.47:257][180]LogMaterial: Display: 	(Node TextureSample) Coercion failed: Material.VectorExpressions[2].rgb: float3 -> float2
+[2021.10.19-13.21.47:260][180]MaterialEditorStats: Error: [SM5] (Node TextureSample) Coercion failed: Material.VectorExpressions[2].rgb: float3 -> float2
+[2021.10.19-13.21.52:012][642]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.22.10:929][678]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.10.19-13.22.14:549][888]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2021.10.19-13.22.16:051][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.10.19-13.22.16:108][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2021.10.19-13.22.18:163][897]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2021.10.19-13.22.18:163][897]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2021.10.19-13.22.19:649][904]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2021.10.19-13.22.20:070][906]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2021.10.19-13.22.21:882][910]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 23
+[2021.10.19-13.22.22:618][914]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2021.10.19-13.22.22:734][915]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2021.10.19-13.22.22:890][916]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2021.10.19-13.22.23:626][922]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2021.10.19-13.22.23:880][924]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 18
+[2021.10.19-13.22.23:881][924]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2021.10.19-13.22.25:165][933]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 16
+[2021.10.19-13.22.25:252][934]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2021.10.19-13.22.25:253][934]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2021.10.19-13.22.25:728][939]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 13
+[2021.10.19-13.22.27:921][992]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2021.10.19-13.22.30:780][268]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2021.10.19-13.22.35:887][700]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2021.10.19-13.22.36:920][810]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.22.36:934][810]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2021.10.19-13.22.36:935][810]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.10.19-13.22.36:946][810]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.22.36:949][810]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.10.19-13.22.39:885][104]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 37
+[2021.10.19-13.22.41:971][319]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.22.41:993][319]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.10.19-13.22.45:800][566]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 37
+[2021.10.19-13.22.45:800][566]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 36
+[2021.10.19-13.22.45:887][567]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 35
+[2021.10.19-13.22.46:828][576]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 34
+[2021.10.19-13.22.46:949][578]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 33
+[2021.10.19-13.22.47:024][579]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 32
+[2021.10.19-13.22.47:821][586]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 31
+[2021.10.19-13.22.48:149][590]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 30
+[2021.10.19-13.22.48:425][593]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2021.10.19-13.22.48:577][594]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2021.10.19-13.22.49:352][602]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2021.10.19-13.22.49:352][602]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2021.10.19-13.22.49:610][605]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 25
+[2021.10.19-13.22.50:681][612]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.10.19-13.22.50:835][614]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 23
+[2021.10.19-13.22.50:959][615]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 22
+[2021.10.19-13.22.52:084][621]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 21
+[2021.10.19-13.22.52:397][624]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 20
+[2021.10.19-13.22.52:397][624]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2021.10.19-13.22.53:564][631]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2021.10.19-13.22.54:287][634]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 17
+[2021.10.19-13.22.54:444][635]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2021.10.19-13.22.56:895][642]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2021.10.19-13.22.56:971][643]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2021.10.19-13.22.57:156][645]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2021.10.19-13.22.59:195][653]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2021.10.19-13.22.59:405][655]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 11
+[2021.10.19-13.22.59:757][658]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 10
+[2021.10.19-13.23.00:830][666]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 9
+[2021.10.19-13.23.01:094][668]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.10.19-13.23.01:307][670]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2021.10.19-13.23.02:261][677]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2021.10.19-13.23.02:453][679]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2021.10.19-13.23.02:453][679]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2021.10.19-13.23.02:685][680]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.10.19-13.23.02:685][680]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.10.19-13.23.02:685][680]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.10.19-13.23.02:685][680]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2021.10.19-13.23.02:685][680]MaterialEditorStats: Texture samplers: 3/16
+[2021.10.19-13.23.02:686][680]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.19-13.23.02:686][680]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.19-13.23.03:274][686]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2021.10.19-13.23.03:500][689]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2021.10.19-13.23.03:629][690]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.10.19-13.23.10:870][103]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.23.10:900][104]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2021.10.19-13.23.10:900][104]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2021.10.19-13.23.10:900][104]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2021.10.19-13.23.18:607][892]LogMaterialEditor: Saving and Compiling material Material_001
+[2021.10.19-13.23.19:086][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 24
+[2021.10.19-13.23.19:095][892]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.10.19-13.23.19:147][892]LogMaterial: Display: Missing cached shader map for material Material_001, compiling. 
+[2021.10.19-13.23.19:185][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.10.19-13.23.19:207][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 66
+[2021.10.19-13.23.19:207][892]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.19-13.23.19:790][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 67
+[2021.10.19-13.23.20:348][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 66
+[2021.10.19-13.23.20:348][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 65
+[2021.10.19-13.23.20:348][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2021.10.19-13.23.20:348][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
+[2021.10.19-13.23.20:906][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 62
+[2021.10.19-13.23.20:906][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
+[2021.10.19-13.23.20:906][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2021.10.19-13.23.21:464][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 59
+[2021.10.19-13.23.21:464][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 58
+[2021.10.19-13.23.21:464][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 57
+[2021.10.19-13.23.22:022][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2021.10.19-13.23.22:022][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 55
+[2021.10.19-13.23.22:022][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 54
+[2021.10.19-13.23.22:580][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 53
+[2021.10.19-13.23.22:580][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 52
+[2021.10.19-13.23.23:138][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 51
+[2021.10.19-13.23.23:138][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
+[2021.10.19-13.23.23:700][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 49
+[2021.10.19-13.23.23:700][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 48
+[2021.10.19-13.23.24:260][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 47
+[2021.10.19-13.23.25:385][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
+[2021.10.19-13.23.25:385][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 45
+[2021.10.19-13.23.25:943][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
+[2021.10.19-13.23.26:498][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
+[2021.10.19-13.23.26:498][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
+[2021.10.19-13.23.27:051][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
+[2021.10.19-13.23.27:051][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2021.10.19-13.23.27:598][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 39
+[2021.10.19-13.23.27:598][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.10.19-13.23.27:598][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2021.10.19-13.23.27:632][892]TextureStreamingBuild: Display: Compiling optional shaders took 8.444 seconds.
+[2021.10.19-13.23.33:534][892]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2021.10.19-13.23.33:711][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.10.19-13.23.35:454][892]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2021.10.19-13.23.35:454][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2021.10.19-13.23.38:320][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2021.10.19-13.23.39:454][892]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2021.10.19-13.23.40:413][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MetinCharacters/Material_001" FILE="../../../../UnrealProjects/SomethingThird/Content/MetinCharacters/Material_001.uasset" SILENT=true
+[2021.10.19-13.23.40:422][892]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_001B3C484C54341B6C7DAB67198A869E4DB.tmp' to '../../../../UnrealProjects/SomethingThird/Content/MetinCharacters/Material_001.uasset'
+[2021.10.19-13.23.40:470][892]AssetCheck: New page: Asset Save: Material_001
+[2021.10.19-13.23.40:470][892]LogContentValidation: Display: Validating Material /Game/MetinCharacters/Material_001.Material_001
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: Base pass shader: 120 instructions
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: Base pass vertex shader: 87 instructions
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: Texture samplers: 4/16
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.10.19-13.23.40:475][892]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.10.19-13.23.40:552][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2021.10.19-13.23.40:816][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/ThirdPersonExampleMap_Auto25226CA114F75D01B1182149411AE0B43.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2021.10.19-13.23.40:818][893]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.273
+[2021.10.19-13.23.40:818][893]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.273
+[2021.10.19-13.23.40:818][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/SuraNoviceMixamo] ([1] browsable assets)...
+[2021.10.19-13.23.40:847][893]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo]
+[2021.10.19-13.23.40:848][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/SuraNoviceMixamo]
+[2021.10.19-13.23.40:875][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/SuraNoviceMixamo_Auto25715A11E4234881F8AB5D5B3566813CF.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/SuraNoviceMixamo_Auto2.uasset'
+[2021.10.19-13.23.40:876][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_003] ([1] browsable assets)...
+[2021.10.19-13.23.40:901][893]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_003.Material_003]
+[2021.10.19-13.23.40:901][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_003]
+[2021.10.19-13.23.40:917][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_003_Auto2EB75103B417AF5831DD00793515E0FEC.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_003_Auto2.uasset'
+[2021.10.19-13.23.40:917][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_002] ([1] browsable assets)...
+[2021.10.19-13.23.40:931][893]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_002.Material_002]
+[2021.10.19-13.23.40:931][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_002]
+[2021.10.19-13.23.40:943][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_002_Auto2E00F577C45A454D3247019AA35945E9A.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_002_Auto2.uasset'
+[2021.10.19-13.23.40:943][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Material_006] ([1] browsable assets)...
+[2021.10.19-13.23.40:959][893]OBJ SavePackage:     Rendered thumbnail for [Material /Game/MetinCharacters/Material_006.Material_006]
+[2021.10.19-13.23.40:959][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Material_006]
+[2021.10.19-13.23.40:968][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Material_006_Auto2E83E2CF94B9EFD3B31BDC0999097220B.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Material_006_Auto2.uasset'
+[2021.10.19-13.23.40:969][893]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MetinCharacters/SuraNoviceMixamo_Skeleton] ([1] browsable assets)...
+[2021.10.19-13.23.40:969][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/SuraNoviceMixamo_Skeleton]
+[2021.10.19-13.23.40:975][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/SuraNoviceMixamo_Skeleton_Auto20A4EB42645DF1DFB3EC353A16F2AE914.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/SuraNoviceMixamo_Skeleton_Auto2.uasset'
+[2021.10.19-13.23.40:976][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset] ([1] browsable assets)...
+[2021.10.19-13.23.40:994][893]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset.SuraNoviceMixamo_PhysicsAsset]
+[2021.10.19-13.23.40:994][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset]
+[2021.10.19-13.23.41:024][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/SuraNoviceMixamo_PhysicsAsset_AuD71E7C9E4D92330AD0181A939F96F751.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset_Auto2.uasset'
+[2021.10.19-13.23.41:025][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Great_Sword_Idle] ([1] browsable assets)...
+[2021.10.19-13.23.41:039][893]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/MetinCharacters/Great_Sword_Idle.Great_Sword_Idle]
+[2021.10.19-13.23.41:039][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Great_Sword_Idle]
+[2021.10.19-13.23.41:065][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Great_Sword_Idle_Auto283DADDF34BCF0A14AB82A59A06C72B37.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Great_Sword_Idle_Auto2.uasset'
+[2021.10.19-13.23.41:066][893]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/MetinCharacters/Great_Sword_Idle_Skeleton] ([1] browsable assets)...
+[2021.10.19-13.23.41:066][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Great_Sword_Idle_Skeleton]
+[2021.10.19-13.23.41:073][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Great_Sword_Idle_Skeleton_Auto29CF0F04D4541D5984E6CEDB481B7ACDA.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Great_Sword_Idle_Skeleton_Auto2.uasset'
+[2021.10.19-13.23.41:073][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/Great_Sword_Idle_PhysicsAsset] ([1] browsable assets)...
+[2021.10.19-13.23.41:088][893]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/MetinCharacters/Great_Sword_Idle_PhysicsAsset.Great_Sword_Idle_PhysicsAsset]
+[2021.10.19-13.23.41:088][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/Great_Sword_Idle_PhysicsAsset]
+[2021.10.19-13.23.41:177][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/Great_Sword_Idle_PhysicsAsset_AuC32DA00F475AB6BA62E356BB153098F2.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/Great_Sword_Idle_PhysicsAsset_Auto2.uasset'
+[2021.10.19-13.23.41:178][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/sura_face_result] ([1] browsable assets)...
+[2021.10.19-13.23.41:184][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MetinCharacters/sura_face_result.sura_face_result]
+[2021.10.19-13.23.41:184][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/sura_face_result]
+[2021.10.19-13.23.41:196][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/sura_face_result_Auto22215403341A1CD98ADCDE9B6B4127036.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/sura_face_result_Auto2.uasset'
+[2021.10.19-13.23.41:198][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/sura_face_result_result] ([1] browsable assets)...
+[2021.10.19-13.23.41:221][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MetinCharacters/sura_face_result_result.sura_face_result_result]
+[2021.10.19-13.23.41:221][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/sura_face_result_result]
+[2021.10.19-13.23.41:231][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/sura_face_result_result_Auto2C349D2D94730813FE67ADDA6631AE40E.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/sura_face_result_result_Auto2.uasset'
+[2021.10.19-13.23.41:232][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MetinCharacters/sura_novice_black_result] ([1] browsable assets)...
+[2021.10.19-13.23.41:239][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/MetinCharacters/sura_novice_black_result.sura_novice_black_result]
+[2021.10.19-13.23.41:239][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/MetinCharacters/sura_novice_black_result]
+[2021.10.19-13.23.41:253][893]LogSavePackage: Moving '../../../../UnrealProjects/SomethingThird/Saved/sura_novice_black_result_Auto261118B854A732DB9C2D36A8594C79CE6.tmp' to '../../../../UnrealProjects/SomethingThird/Saved/Autosaves/Game/MetinCharacters/sura_novice_black_result_Auto2.uasset'
+[2021.10.19-13.23.41:255][893]LogFileHelpers: Auto-saving content packages took 0.437
+[2021.10.19-13.24.03:991][307]LogSlate: Window 'Material_001' being destroyed
+[2021.10.19-13.24.03:995][307]LogSlate: Window 'Material_001' being destroyed
+[2021.10.19-13.24.04:008][307]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.24.04:008][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.24.06:957][591]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MetinCharacters/Material_002.Material_002
+[2021.10.19-13.24.06:958][591]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.07:043][591]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.07:060][591]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.07:082][591]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2021.10.19-13.24.07:082][591]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 26
+[2021.10.19-13.24.07:082][591]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 25
+[2021.10.19-13.24.07:088][591]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.24.10:967][930]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.13:263][119]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.13:278][119]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.24.13:286][119]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.24.14:974][280]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2021.10.19-13.24.15:757][365]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.15:777][365]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.24.19:835][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.10.19-13.24.19:835][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2021.10.19-13.24.20:364][721]LogSlate: Window 'Message' being destroyed
+[2021.10.19-13.24.20:369][721]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/MetinCharacters/Material_002.Material_002
+(Selecting 'No' will cause all changes to be lost!)
+[2021.10.19-13.24.20:932][721]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.20:999][721]LogMaterial: Display: Missing cached shader map for material Material_002, compiling. 
+[2021.10.19-13.24.21:038][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.10.19-13.24.21:044][721]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.19-13.24.21:606][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 72
+[2021.10.19-13.24.21:606][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 71
+[2021.10.19-13.24.22:202][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 70
+[2021.10.19-13.24.22:760][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 69
+[2021.10.19-13.24.22:760][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 68
+[2021.10.19-13.24.23:318][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 67
+[2021.10.19-13.24.23:318][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 66
+[2021.10.19-13.24.23:876][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 65
+[2021.10.19-13.24.23:876][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2021.10.19-13.24.23:876][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
+[2021.10.19-13.24.24:434][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 62
+[2021.10.19-13.24.24:434][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 61
+[2021.10.19-13.24.24:992][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2021.10.19-13.24.24:992][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 59
+[2021.10.19-13.24.25:560][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 58
+[2021.10.19-13.24.25:560][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 57
+[2021.10.19-13.24.26:696][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2021.10.19-13.24.26:696][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 55
+[2021.10.19-13.24.27:254][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 54
+[2021.10.19-13.24.28:370][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 53
+[2021.10.19-13.24.28:370][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 52
+[2021.10.19-13.24.28:370][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 51
+[2021.10.19-13.24.28:929][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
+[2021.10.19-13.24.29:516][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 49
+[2021.10.19-13.24.29:517][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 48
+[2021.10.19-13.24.30:663][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 47
+[2021.10.19-13.24.30:663][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 46
+[2021.10.19-13.24.30:663][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 45
+[2021.10.19-13.24.31:800][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 44
+[2021.10.19-13.24.31:800][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 43
+[2021.10.19-13.24.32:367][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 42
+[2021.10.19-13.24.32:937][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 41
+[2021.10.19-13.24.32:937][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 40
+[2021.10.19-13.24.32:937][721]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
+[2021.10.19-13.24.32:937][721]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2021.10.19-13.24.33:037][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2021.10.19-13.24.33:043][721]TextureStreamingBuild: Display: Compiling optional shaders took 12.003 seconds.
+[2021.10.19-13.24.38:105][721]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2021.10.19-13.24.38:105][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.10.19-13.24.38:132][721]LogSlate: Window 'Material_002' being destroyed
+[2021.10.19-13.24.38:133][721]LogSlate: Window 'Material_002' being destroyed
+[2021.10.19-13.24.38:155][721]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.24.38:155][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.24.40:145][747]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.10.19-13.24.40:712][755]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2021.10.19-13.24.41:789][767]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2021.10.19-13.24.44:876][982]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.10.19-13.24.49:193][314]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MetinCharacters/Material_003.Material_003
+[2021.10.19-13.24.49:194][314]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.24.49:210][314]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 27
+[2021.10.19-13.24.49:298][314]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.24.49:314][314]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.24.49:334][314]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.24.53:572][600]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.24.56:743][817]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.10.19-13.24.57:020][835]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2021.10.19-13.25.00:091][993]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.10.19-13.25.00:091][993]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 28
+[2021.10.19-13.25.00:474][997]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 27
+[2021.10.19-13.25.01:070][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 26
+[2021.10.19-13.25.01:332][  4]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 25
+[2021.10.19-13.25.01:725][  8]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 24
+[2021.10.19-13.25.01:888][ 10]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 23
+[2021.10.19-13.25.02:105][ 13]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 22
+[2021.10.19-13.25.02:662][ 19]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 21
+[2021.10.19-13.25.02:663][ 19]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 20
+[2021.10.19-13.25.03:036][ 24]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2021.10.19-13.25.03:633][ 31]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 18
+[2021.10.19-13.25.03:633][ 31]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 17
+[2021.10.19-13.25.03:865][ 32]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 16
+[2021.10.19-13.25.04:530][ 38]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 15
+[2021.10.19-13.25.04:940][ 41]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 14
+[2021.10.19-13.25.05:089][ 42]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 13
+[2021.10.19-13.25.05:664][ 47]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2021.10.19-13.25.05:740][ 48]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 11
+[2021.10.19-13.25.06:363][ 52]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 10
+[2021.10.19-13.25.06:967][ 57]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 9
+[2021.10.19-13.25.07:052][ 58]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.10.19-13.25.07:052][ 58]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2021.10.19-13.25.08:072][ 68]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 6
+[2021.10.19-13.25.08:204][ 70]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2021.10.19-13.25.08:462][ 73]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2021.10.19-13.25.09:295][ 81]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2021.10.19-13.25.09:374][ 82]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2021.10.19-13.25.09:657][ 85]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2021.10.19-13.25.10:896][ 98]MaterialEditorStats: Base pass shader: 117 instructions
+[2021.10.19-13.25.10:896][ 98]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2021.10.19-13.25.10:896][ 98]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2021.10.19-13.25.10:896][ 98]MaterialEditorStats: Base pass vertex shader: 86 instructions
+[2021.10.19-13.25.10:896][ 98]MaterialEditorStats: Texture samplers: 2/16
+[2021.10.19-13.25.25:244][155]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Downloads\SuraNovice\hair\hair_1_1_result.png)
+[2021.10.19-13.25.25:246][155]LogTexture: Display: Building textures: hair_1_1_result (AutoDXT, 256X256)
+[2021.10.19-13.25.32:130][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.10.19-13.25.32:997][504]LogSlate: Window 'Delete Assets' being destroyed
+[2021.10.19-13.25.33:068][504]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.10.19-13.25.34:036][585]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.25.34:050][585]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.25.34:056][585]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 31
+[2021.10.19-13.25.34:056][585]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 30
+[2021.10.19-13.25.34:056][585]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 29
+[2021.10.19-13.25.34:060][585]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.25.35:856][757]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.25.35:876][757]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.25.39:012][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.10.19-13.25.39:370][  2]LogSlate: Window 'Message' being destroyed
+[2021.10.19-13.25.39:374][  2]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/MetinCharacters/Material_003.Material_003
+(Selecting 'No' will cause all changes to be lost!)
+[2021.10.19-13.25.39:940][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 30
+[2021.10.19-13.25.39:949][  2]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.25.40:011][  2]LogMaterial: Display: Missing cached shader map for material Material_003, compiling. 
+[2021.10.19-13.25.40:051][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.10.19-13.25.40:058][  2]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.19-13.25.41:180][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 72
+[2021.10.19-13.25.41:180][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 71
+[2021.10.19-13.25.41:744][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 70
+[2021.10.19-13.25.42:302][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 69
+[2021.10.19-13.25.42:302][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 68
+[2021.10.19-13.25.42:302][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 67
+[2021.10.19-13.25.42:861][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 66
+[2021.10.19-13.25.43:419][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 65
+[2021.10.19-13.25.43:419][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2021.10.19-13.25.43:419][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 63
+[2021.10.19-13.25.43:978][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 62
+[2021.10.19-13.25.44:536][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 61
+[2021.10.19-13.25.44:536][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 60
+[2021.10.19-13.25.45:098][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 59
+[2021.10.19-13.25.45:098][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 58
+[2021.10.19-13.25.45:098][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 57
+[2021.10.19-13.25.45:656][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 56
+[2021.10.19-13.25.46:214][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 55
+[2021.10.19-13.25.46:214][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 54
+[2021.10.19-13.25.46:773][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 53
+[2021.10.19-13.25.46:773][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 52
+[2021.10.19-13.25.46:773][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 51
+[2021.10.19-13.25.47:330][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 50
+[2021.10.19-13.25.47:330][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 49
+[2021.10.19-13.25.47:330][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 48
+[2021.10.19-13.25.47:888][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 47
+[2021.10.19-13.25.48:446][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 46
+[2021.10.19-13.25.48:446][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 45
+[2021.10.19-13.25.49:006][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 44
+[2021.10.19-13.25.49:006][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 43
+[2021.10.19-13.25.49:006][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 42
+[2021.10.19-13.25.49:565][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 41
+[2021.10.19-13.25.50:094][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 40
+[2021.10.19-13.25.50:094][  2]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 39
+[2021.10.19-13.25.50:094][  2]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 29
+[2021.10.19-13.25.50:094][  2]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2021.10.19-13.25.50:100][  2]TextureStreamingBuild: Display: Compiling optional shaders took 10.046 seconds.
+[2021.10.19-13.25.51:957][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2021.10.19-13.25.51:981][  2]LogSlate: Window 'Material_003' being destroyed
+[2021.10.19-13.25.51:986][  2]LogSlate: Window 'Material_003' being destroyed
+[2021.10.19-13.25.52:015][  2]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.25.52:015][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.25.57:526][428]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/MetinCharacters/Material_006.Material_006
+[2021.10.19-13.25.57:527][428]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.25.57:627][428]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.25.57:645][428]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.25.57:670][428]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.26.00:685][640]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.26.00:700][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.26.00:709][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.10.19-13.26.00:712][640]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.26.02:563][796]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.26.04:524][988]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.26.04:546][988]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.10.19-13.26.07:459][163]LogSlate: Window 'Message' being destroyed
+[2021.10.19-13.26.07:464][163]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/MetinCharacters/Material_006.Material_006
+(Selecting 'No' will cause all changes to be lost!)
+[2021.10.19-13.26.08:035][163]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.26.08:098][163]LogMaterial: Display: Missing cached shader map for material Material_006, compiling. 
+[2021.10.19-13.26.12:331][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 86
+[2021.10.19-13.26.12:331][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 85
+[2021.10.19-13.26.12:331][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 84
+[2021.10.19-13.26.12:331][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 83
+[2021.10.19-13.26.12:331][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 82
+[2021.10.19-13.26.12:331][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 81
+[2021.10.19-13.26.12:332][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.10.19-13.26.12:334][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 80
+[2021.10.19-13.26.12:338][163]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.10.19-13.26.12:899][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 81
+[2021.10.19-13.26.13:457][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 80
+[2021.10.19-13.26.13:457][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 79
+[2021.10.19-13.26.13:457][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 78
+[2021.10.19-13.26.14:015][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 77
+[2021.10.19-13.26.14:573][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 76
+[2021.10.19-13.26.14:573][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 75
+[2021.10.19-13.26.15:131][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 74
+[2021.10.19-13.26.15:131][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 73
+[2021.10.19-13.26.15:131][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 72
+[2021.10.19-13.26.15:690][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 71
+[2021.10.19-13.26.15:690][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 70
+[2021.10.19-13.26.15:690][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 69
+[2021.10.19-13.26.16:248][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 68
+[2021.10.19-13.26.16:807][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 67
+[2021.10.19-13.26.16:807][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 66
+[2021.10.19-13.26.17:365][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 65
+[2021.10.19-13.26.17:365][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 64
+[2021.10.19-13.26.17:926][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 63
+[2021.10.19-13.26.18:488][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 62
+[2021.10.19-13.26.18:488][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 61
+[2021.10.19-13.26.18:488][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 60
+[2021.10.19-13.26.20:753][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 59
+[2021.10.19-13.26.20:753][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 58
+[2021.10.19-13.26.20:753][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 57
+[2021.10.19-13.26.21:311][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 56
+[2021.10.19-13.26.21:869][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 55
+[2021.10.19-13.26.21:869][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 54
+[2021.10.19-13.26.22:427][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 53
+[2021.10.19-13.26.22:930][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 52
+[2021.10.19-13.26.22:930][163]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 51
+[2021.10.19-13.26.22:930][163]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 41
+[2021.10.19-13.26.22:930][163]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 31
+[2021.10.19-13.26.22:938][163]TextureStreamingBuild: Display: Compiling optional shaders took 10.603 seconds.
+[2021.10.19-13.26.28:693][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.10.19-13.26.28:708][163]LogSlate: Window 'Material_006' being destroyed
+[2021.10.19-13.26.28:709][163]LogSlate: Window 'Material_006' being destroyed
+[2021.10.19-13.26.28:738][163]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.26.28:738][163]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.26.31:925][206]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 21
+[2021.10.19-13.26.32:396][210]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 13
+[2021.10.19-13.26.36:407][249]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2021.10.19-13.26.39:788][307]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 5
+[2021.10.19-13.26.39:826][308]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 3
+[2021.10.19-13.26.40:670][322]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2021.10.19-13.26.51:293][521]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo
+[2021.10.19-13.26.51:297][521]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.19-13.26.51:347][521]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.10.19-13.27.09:085][190]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/MetinCharacters/SuraNoviceMixamo_PhysicsAsset.SuraNoviceMixamo_PhysicsAsset
+[2021.10.19-13.27.09:195][190]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2021.10.19-13.27.09:248][190]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2021.10.19-13.28.25:683][750]LogSlate: Window 'SuraNoviceMixamo_PhysicsAsset' being destroyed
+[2021.10.19-13.28.25:688][750]LogSlate: Window 'SuraNoviceMixamo_PhysicsAsset' being destroyed
+[2021.10.19-13.28.25:688][750]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.28.25:688][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.28.25:781][750]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.28.25:781][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.29.44:511][179]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MetinCharacters/SuraNoviceMixamo.SuraNoviceMixamo
+[2021.10.19-13.29.44:515][179]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.10.19-13.29.44:566][179]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.10.19-13.30.09:360][595]LogSlate: Window 'SuraNoviceMixamo' being destroyed
+[2021.10.19-13.30.09:365][595]LogSlate: Window 'SuraNoviceMixamo' being destroyed
+[2021.10.19-13.30.09:366][595]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.10.19-13.30.09:366][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.19-13.30.27:981][673]Cmd: POLY SELECT ALL
+[2021.10.19-13.31.16:238][324]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.16:238][324]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-13.31.18:473][470]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.18:473][470]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-13.31.18:854][511]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.18:854][511]LogEditorTransaction: Undo Set Scale
+[2021.10.19-13.31.19:310][565]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.19:310][565]LogEditorTransaction: Undo Set Scale
+[2021.10.19-13.31.19:663][607]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.19:663][607]LogEditorTransaction: Undo Set Scale
+[2021.10.19-13.31.20:017][649]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.20:017][649]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-13.31.20:437][697]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.20:437][697]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-13.31.20:939][757]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.20:939][757]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-13.31.21:370][805]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.21:370][805]LogEditorTransaction: Undo Clicking on Actors
+[2021.10.19-13.31.21:747][850]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.21:747][850]LogEditorTransaction: Undo Select All
+[2021.10.19-13.31.22:191][891]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.22:191][891]LogEditorTransaction: Undo Set Scale
+[2021.10.19-13.31.22:674][936]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.22:674][936]LogEditorTransaction: Undo Set Scale
+[2021.10.19-13.31.23:080][979]Cmd: TRANSACTION UNDO
+[2021.10.19-13.31.23:080][979]LogEditorTransaction: Undo Set Scale
+[2021.10.19-13.31.44:917][509]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a non-invertible matrix, this results in NaNs! Use Inverse() instead.
