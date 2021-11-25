@@ -1,0 +1,2 @@
+ @subst d: /D
+ @pause

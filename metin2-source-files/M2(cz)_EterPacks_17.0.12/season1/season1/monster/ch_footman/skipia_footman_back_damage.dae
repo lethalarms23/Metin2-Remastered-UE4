@@ -1,0 +1,2135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+  <asset>
+    <contributor>
+      <authoring_tool>3D Studio MAX</authoring_tool>
+    </contributor>
+    <created>2021-10-19T19:48:34.2223221+01:00</created>
+    <modified>2021-10-19T19:48:34.2223221+01:00</modified>
+    <unit meter="100" />
+  </asset>
+  <library_animations>
+    <animation id="Bone_Bip01_Transform" name="Bone_Bip01_Transform">
+      <source id="Bone_Bip01_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_Transform-outputs-array" count="256">-0.686246 0.726040 -0.043966 0.000000 -0.727109 -0.686364 0.014726 -3.616781 -0.019485 0.042074 0.998924 73.525497 0.000000 0.000000 0.000000 1.000000 -0.555481 0.755659 -0.347016 0.000000 -0.821700 -0.562809 0.089756 -28.404100 -0.127479 0.335001 0.933554 59.602631 0.000000 0.000000 0.000000 1.000000 -0.576017 0.754246 -0.315146 0.000000 -0.808687 -0.582058 0.085049 -28.327761 -0.119285 0.303845 0.945225 61.761639 0.000000 0.000000 0.000000 1.000000 -0.568963 0.755172 -0.325571 0.000000 -0.813270 -0.575410 0.086579 -31.874790 -0.121955 0.314037 0.941545 64.254196 0.000000 0.000000 0.000000 1.000000 -0.579314 0.755504 -0.305957 0.000000 -0.806771 -0.585002 0.083025 -32.417194 -0.116260 0.294935 0.948418 69.847931 0.000000 0.000000 0.000000 1.000000 -0.586352 0.756175 -0.290501 0.000000 -0.802356 -0.591476 0.079875 -33.402496 -0.111425 0.279921 0.953535 75.393150 0.000000 0.000000 0.000000 1.000000 -0.597973 0.756155 -0.265816 0.000000 -0.794795 -0.602260 0.074727 -33.819012 -0.103585 0.255954 0.961124 80.497658 0.000000 0.000000 0.000000 1.000000 -0.610014 0.755487 -0.239004 0.000000 -0.786713 -0.613479 0.068747 -34.733780 -0.094686 0.229964 0.968582 83.148445 0.000000 0.000000 0.000000 1.000000 -0.623460 0.753630 -0.208179 0.000000 -0.777326 -0.626090 0.061447 -35.710926 -0.084030 0.200132 0.976159 83.574783 0.000000 0.000000 0.000000 1.000000 -0.637113 0.750516 -0.175534 0.000000 -0.767378 -0.638984 0.053201 -36.348770 -0.072235 0.168596 0.983035 83.331444 0.000000 0.000000 0.000000 1.000000 -0.650765 0.745982 -0.141480 0.000000 -0.756954 -0.651982 0.044049 -36.815521 -0.059383 0.135759 0.988960 82.307343 0.000000 0.000000 0.000000 1.000000 -0.663868 0.740121 -0.107241 0.000000 -0.746440 -0.664569 0.034280 -37.137825 -0.045898 0.102806 0.993642 80.865074 0.000000 0.000000 0.000000 1.000000 -0.676104 0.733111 -0.073705 0.000000 -0.736105 -0.676436 0.024162 -37.398144 -0.032143 0.070591 0.996988 79.176170 0.000000 0.000000 0.000000 1.000000 -0.687157 0.725299 -0.041899 0.000000 -0.726271 -0.687265 0.014062 -37.655704 -0.018597 0.040093 0.999023 77.491821 0.000000 0.000000 0.000000 1.000000 -0.696807 0.717145 -0.012768 0.000000 -0.717235 -0.696817 0.004377 -37.979588 -0.005758 0.012208 0.999909 76.029503 0.000000 0.000000 0.000000 1.000000 -0.700909 0.713251 0.000000 0.000000 -0.713251 -0.700909 0.000000 -38.207008 0.000000 0.000000 1.000000 75.525879 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_Transform_sampler" target="Bone_Bip01/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_Head_Transform" name="Bone_Bip01_Head_Transform">
+      <source id="Bone_Bip01_Head_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_Head_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Head_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Head_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_Head_Transform-outputs-array" count="256">0.924160 0.145210 -0.353329 0.000000 -0.376428 0.503643 -0.777590 0.000000 0.065038 0.851621 0.520108 0.000000 0.000000 0.000000 0.000000 1.000000 0.974032 0.025572 -0.224962 0.000000 -0.041057 0.997078 -0.064425 0.000000 0.222657 0.071988 0.972235 0.000000 0.000000 0.000000 0.000000 1.000000 0.951364 0.067622 -0.300556 0.000000 -0.105255 0.988251 -0.110820 0.000000 0.289531 0.137065 0.947304 0.000000 0.000000 0.000000 0.000000 1.000000 0.989068 -0.147096 0.010348 0.000000 0.145238 0.983897 0.104175 0.000000 -0.025505 -0.101534 0.994505 0.000000 0.000000 0.000000 0.000000 1.000000 0.949615 -0.257729 0.178343 0.000000 0.251056 0.966147 0.059425 0.000000 -0.187621 -0.011657 0.982172 0.000000 0.000000 0.000000 0.000000 1.000000 0.939692 -0.257222 0.225422 0.000000 0.271158 0.961981 -0.032658 0.000000 -0.208451 0.091814 0.973714 0.000000 0.000000 0.000000 0.000000 1.000000 0.920329 -0.225018 0.319939 0.000000 0.276137 0.953084 -0.124012 0.000000 -0.277024 0.202479 0.939287 0.000000 0.000000 0.000000 0.000000 1.000000 0.933521 -0.103545 0.343244 0.000000 0.183205 0.960722 -0.208446 0.000000 -0.308179 0.257473 0.915824 0.000000 0.000000 0.000000 0.000000 1.000000 0.947083 0.068086 0.313686 0.000000 0.029809 0.954366 -0.297149 0.000000 -0.319603 0.290775 0.901834 0.000000 0.000000 0.000000 0.000000 1.000000 0.938441 0.242852 0.245666 0.000000 -0.131417 0.908683 -0.396264 0.000000 -0.319466 0.339585 0.884660 0.000000 0.000000 0.000000 0.000000 1.000000 0.907122 0.396379 0.141467 0.000000 -0.280854 0.820462 -0.497958 0.000000 -0.313448 0.411977 0.855585 0.000000 0.000000 0.000000 0.000000 1.000000 0.860415 0.509362 0.015378 0.000000 -0.405087 0.701958 -0.585798 0.000000 -0.309178 0.497800 0.810311 0.000000 0.000000 0.000000 0.000000 1.000000 0.833114 0.543241 -0.103968 0.000000 -0.462348 0.580832 -0.669977 0.000000 -0.303571 0.606237 0.735066 0.000000 0.000000 0.000000 0.000000 1.000000 0.873710 0.441984 -0.203175 0.000000 -0.420052 0.474856 -0.773349 0.000000 -0.245329 0.761027 0.600543 0.000000 0.000000 0.000000 0.000000 1.000000 0.916099 0.276837 -0.290041 0.000000 -0.383730 0.395620 -0.834408 0.000000 -0.116249 0.875698 0.468658 0.000000 0.000000 0.000000 0.000000 1.000000 0.922247 0.204096 -0.328338 0.000000 -0.382770 0.362768 -0.849639 0.000000 -0.054297 0.909255 0.412683 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Head_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Head_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_Head_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Head_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_Head_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_Head_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_Head_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_Head_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_Head_Transform_sampler" target="Bone_Bip01_Head/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_HeadNub_Transform" name="Bone_Bip01_HeadNub_Transform">
+      <source id="Bone_Bip01_HeadNub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_HeadNub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_HeadNub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_HeadNub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_HeadNub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_HeadNub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_HeadNub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_HeadNub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_HeadNub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_HeadNub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_HeadNub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_HeadNub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_HeadNub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_HeadNub_Transform_sampler" target="Bone_Bip01_HeadNub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Calf_Transform" name="Bone_Bip01_L_Calf_Transform">
+      <source id="Bone_Bip01_L_Calf_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Calf_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Calf_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Calf_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Calf_Transform-outputs-array" count="256">0.428613 0.903488 0.000000 0.000000 -0.903488 0.428613 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.246144 0.969233 0.000000 0.000000 -0.969233 -0.246144 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.144719 0.989473 0.000000 0.000000 -0.989473 -0.144719 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.067466 0.997722 0.000000 0.000000 -0.997722 -0.067466 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.165805 0.986158 0.000000 0.000000 -0.986158 0.165805 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.406777 0.913527 0.000000 0.000000 -0.913527 0.406777 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.652883 0.757459 0.000000 0.000000 -0.757459 0.652883 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.784747 0.619816 0.000000 0.000000 -0.619816 0.784747 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.803152 0.595774 0.000000 0.000000 -0.595774 0.803152 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.791028 0.611780 0.000000 0.000000 -0.611780 0.791028 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.745203 0.666838 0.000000 0.000000 -0.666838 0.745203 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.687658 0.726034 0.000000 0.000000 -0.726034 0.687658 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.629229 0.777220 0.000000 0.000000 -0.777220 0.629229 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.583079 0.812415 0.000000 0.000000 -0.812415 0.583079 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.558642 0.829409 0.000000 0.000000 -0.829409 0.558642 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.561451 0.827510 0.000000 0.000000 -0.827510 0.561451 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Calf_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Calf_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Calf_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Calf_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Calf_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Calf_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Calf_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Calf_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Calf_Transform_sampler" target="Bone_Bip01_L_Calf/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Clavicle_Transform" name="Bone_Bip01_L_Clavicle_Transform">
+      <source id="Bone_Bip01_L_Clavicle_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Clavicle_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Clavicle_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Clavicle_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Clavicle_Transform-outputs-array" count="256">-0.235654 -0.532026 0.813274 1.208693 0.325030 -0.831798 -0.449964 -3.998935 0.915873 0.158302 0.368941 3.568212 0.000000 0.000000 0.000000 1.000000 -0.602668 -0.278521 0.747809 1.789320 0.041343 -0.946752 -0.319298 -2.763268 0.796921 -0.161514 0.582092 4.496609 0.000000 0.000000 0.000000 1.000000 -0.407728 -0.359794 0.839230 1.741784 0.078749 -0.929527 -0.360247 -3.075460 0.909701 -0.080795 0.407328 4.174553 0.000000 0.000000 0.000000 1.000000 -0.363771 -0.354906 0.861227 1.909310 -0.002360 -0.924217 -0.381860 -3.039882 0.931485 -0.140942 0.335365 4.178832 0.000000 0.000000 0.000000 1.000000 -0.243777 -0.365405 0.898361 1.976085 -0.028370 -0.923223 -0.383216 -3.114217 0.969416 -0.118906 0.214693 4.070155 0.000000 0.000000 0.000000 1.000000 -0.172460 -0.328942 0.928469 2.118870 -0.053988 -0.938019 -0.342353 -3.003018 0.983536 -0.109169 0.144012 4.091838 0.000000 0.000000 0.000000 1.000000 -0.096994 -0.291765 0.951559 2.265166 -0.048708 -0.953530 -0.297334 -2.902750 0.994092 -0.075188 0.078275 4.081732 0.000000 0.000000 0.000000 1.000000 -0.063003 -0.244278 0.967657 2.418311 -0.026494 -0.968832 -0.246299 -2.760153 0.997662 -0.041155 0.054568 4.095193 0.000000 0.000000 0.000000 1.000000 -0.061613 -0.200307 0.977794 2.548673 0.015195 -0.979730 -0.199746 -2.634203 0.997984 0.002551 0.063408 4.098054 0.000000 0.000000 0.000000 1.000000 -0.083802 -0.161838 0.983252 2.652411 0.069854 -0.985250 -0.156213 -2.528909 0.994031 0.055593 0.093870 4.098341 0.000000 0.000000 0.000000 1.000000 -0.122699 -0.141930 0.982243 2.706094 0.129333 -0.983568 -0.125965 -2.499759 0.983981 0.111580 0.139039 4.081362 0.000000 0.000000 0.000000 1.000000 -0.170401 -0.134786 0.976113 2.726699 0.191132 -0.976308 -0.101447 -2.522514 0.966660 0.169280 0.192126 4.051896 0.000000 0.000000 0.000000 1.000000 -0.208053 -0.179256 0.961551 2.619661 0.249297 -0.960315 -0.125084 -2.763885 0.945814 0.213688 0.244485 3.975006 0.000000 0.000000 0.000000 1.000000 -0.198705 -0.334435 0.921233 2.121884 0.301185 -0.915327 -0.267327 -3.432827 0.932633 0.224342 0.282607 3.766483 0.000000 0.000000 0.000000 1.000000 -0.153004 -0.497180 0.854050 1.396427 0.346947 -0.836239 -0.424656 -4.038522 0.925320 0.231336 0.300443 3.485781 0.000000 0.000000 0.000000 1.000000 -0.125713 -0.554530 0.822613 1.064651 0.364449 -0.797026 -0.481587 -4.218762 0.922699 0.239259 0.302295 3.357004 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Clavicle_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Clavicle_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Clavicle_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Clavicle_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Clavicle_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Clavicle_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Clavicle_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Clavicle_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Clavicle_Transform_sampler" target="Bone_Bip01_L_Clavicle/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger0_Transform" name="Bone_Bip01_L_Finger0_Transform">
+      <source id="Bone_Bip01_L_Finger0_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger0_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger0_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger0_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger0_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger0_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger0_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger0_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger0_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger0_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger0_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger0_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger0_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger0_Transform_sampler" target="Bone_Bip01_L_Finger0/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger01_Transform" name="Bone_Bip01_L_Finger01_Transform">
+      <source id="Bone_Bip01_L_Finger01_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger01_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger01_Transform_sampler" target="Bone_Bip01_L_Finger01/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger02_Transform" name="Bone_Bip01_L_Finger02_Transform">
+      <source id="Bone_Bip01_L_Finger02_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger02_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger02_Transform_sampler" target="Bone_Bip01_L_Finger02/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger0Nub_Transform" name="Bone_Bip01_L_Finger0Nub_Transform">
+      <source id="Bone_Bip01_L_Finger0Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger0Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger0Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger0Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger0Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger0Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger0Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger0Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger0Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger0Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger0Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger0Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger0Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger0Nub_Transform_sampler" target="Bone_Bip01_L_Finger0Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger1_Transform" name="Bone_Bip01_L_Finger1_Transform">
+      <source id="Bone_Bip01_L_Finger1_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger1_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger1_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger1_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger1_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger1_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger1_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger1_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger1_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger1_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger1_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger1_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger1_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger1_Transform_sampler" target="Bone_Bip01_L_Finger1/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger11_Transform" name="Bone_Bip01_L_Finger11_Transform">
+      <source id="Bone_Bip01_L_Finger11_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger11_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger11_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger11_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger11_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger11_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger11_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger11_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger11_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger11_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger11_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger11_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger11_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger11_Transform_sampler" target="Bone_Bip01_L_Finger11/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger12_Transform" name="Bone_Bip01_L_Finger12_Transform">
+      <source id="Bone_Bip01_L_Finger12_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger12_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger12_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger12_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger12_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger12_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger12_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger12_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger12_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger12_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger12_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger12_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger12_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger12_Transform_sampler" target="Bone_Bip01_L_Finger12/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger1Nub_Transform" name="Bone_Bip01_L_Finger1Nub_Transform">
+      <source id="Bone_Bip01_L_Finger1Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger1Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger1Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger1Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger1Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger1Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger1Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger1Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger1Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger1Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger1Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger1Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger1Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger1Nub_Transform_sampler" target="Bone_Bip01_L_Finger1Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger2_Transform" name="Bone_Bip01_L_Finger2_Transform">
+      <source id="Bone_Bip01_L_Finger2_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger2_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger2_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger2_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger2_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger2_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger2_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger2_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger2_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger2_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger2_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger2_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger2_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger2_Transform_sampler" target="Bone_Bip01_L_Finger2/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger21_Transform" name="Bone_Bip01_L_Finger21_Transform">
+      <source id="Bone_Bip01_L_Finger21_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger21_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger21_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger21_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger21_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger21_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger21_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger21_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger21_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger21_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger21_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger21_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger21_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger21_Transform_sampler" target="Bone_Bip01_L_Finger21/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger22_Transform" name="Bone_Bip01_L_Finger22_Transform">
+      <source id="Bone_Bip01_L_Finger22_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger22_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger22_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger22_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger22_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger22_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger22_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger22_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger22_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger22_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger22_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger22_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger22_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger22_Transform_sampler" target="Bone_Bip01_L_Finger22/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Finger2Nub_Transform" name="Bone_Bip01_L_Finger2Nub_Transform">
+      <source id="Bone_Bip01_L_Finger2Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Finger2Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger2Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger2Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Finger2Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger2Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Finger2Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Finger2Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Finger2Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Finger2Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Finger2Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Finger2Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Finger2Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Finger2Nub_Transform_sampler" target="Bone_Bip01_L_Finger2Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Foot_Transform" name="Bone_Bip01_L_Foot_Transform">
+      <source id="Bone_Bip01_L_Foot_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Foot_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Foot_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Foot_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Foot_Transform-outputs-array" count="256">0.972902 -0.081807 -0.216263 0.000000 0.097762 0.993142 0.064118 0.000000 0.209535 -0.083523 0.974227 0.000000 0.000000 0.000000 0.000000 1.000000 0.868335 -0.478375 -0.130966 0.000000 0.492640 0.862463 0.116028 0.000000 0.057448 -0.165270 0.984574 0.000000 0.000000 0.000000 0.000000 1.000000 0.844051 -0.499578 -0.194936 0.000000 0.533256 0.820341 0.206586 0.000000 0.056709 -0.278320 0.958813 0.000000 0.000000 0.000000 0.000000 1.000000 0.835046 -0.527846 -0.155171 0.000000 0.548736 0.819469 0.165408 0.000000 0.039847 -0.223271 0.973942 0.000000 0.000000 0.000000 0.000000 1.000000 0.858887 -0.489991 -0.149070 0.000000 0.510903 0.840098 0.182247 0.000000 0.035934 -0.232690 0.971887 0.000000 0.000000 0.000000 0.000000 1.000000 0.894855 -0.428982 -0.123321 0.000000 0.445409 0.876190 0.184124 0.000000 0.029066 -0.219693 0.975136 0.000000 0.000000 0.000000 0.000000 1.000000 0.953320 -0.283609 -0.103667 0.000000 0.298552 0.936712 0.182857 0.000000 0.045246 -0.205271 0.977659 0.000000 0.000000 0.000000 0.000000 1.000000 0.976651 -0.192362 -0.095652 0.000000 0.207157 0.961206 0.182125 0.000000 0.056908 -0.197687 0.978612 0.000000 0.000000 0.000000 0.000000 1.000000 0.983657 -0.148573 -0.101715 0.000000 0.164548 0.971112 0.172817 0.000000 0.073101 -0.186730 0.979688 0.000000 0.000000 0.000000 0.000000 1.000000 0.985817 -0.122922 -0.114255 0.000000 0.140592 0.976674 0.162300 0.000000 0.091639 -0.176062 0.980104 0.000000 0.000000 0.000000 0.000000 1.000000 0.984954 -0.110568 -0.132818 0.000000 0.130057 0.980344 0.148364 0.000000 0.113803 -0.163405 0.979973 0.000000 0.000000 0.000000 0.000000 1.000000 0.982991 -0.099003 -0.154687 0.000000 0.119922 0.983924 0.132336 0.000000 0.139099 -0.148636 0.979060 0.000000 0.000000 0.000000 0.000000 1.000000 0.980377 -0.083013 -0.178803 0.000000 0.104526 0.987914 0.114458 0.000000 0.167141 -0.130901 0.977205 0.000000 0.000000 0.000000 0.000000 1.000000 0.977131 -0.059513 -0.204139 0.000000 0.080449 0.992141 0.095835 0.000000 0.196832 -0.110066 0.974240 0.000000 0.000000 0.000000 0.000000 1.000000 0.972812 -0.028107 -0.229886 0.000000 0.047156 0.995854 0.077794 0.000000 0.226746 -0.086520 0.970103 0.000000 0.000000 0.000000 0.000000 1.000000 0.969822 -0.008430 -0.243667 0.000000 0.026306 0.997186 0.070201 0.000000 0.242389 -0.074492 0.967315 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Foot_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Foot_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Foot_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Foot_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Foot_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Foot_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Foot_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Foot_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Foot_Transform_sampler" target="Bone_Bip01_L_Foot/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Forearm_Transform" name="Bone_Bip01_L_Forearm_Transform">
+      <source id="Bone_Bip01_L_Forearm_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Forearm_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Forearm_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Forearm_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Forearm_Transform-outputs-array" count="256">0.379065 0.925370 0.000000 0.000000 -0.925370 0.379065 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.051150 0.998691 0.000000 0.000000 -0.998691 0.051150 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.313728 0.949513 0.000000 0.000000 -0.949513 0.313728 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.398734 0.917067 0.000000 0.000000 -0.917067 0.398734 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.582784 0.812627 0.000000 0.000000 -0.812627 0.582784 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.698588 0.715524 0.000000 0.000000 -0.715524 0.698588 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.792518 0.609849 0.000000 0.000000 -0.609849 0.792518 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.828608 0.559829 0.000000 0.000000 -0.559829 0.828608 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.829880 0.557941 0.000000 0.000000 -0.557941 0.829880 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.810087 0.586310 0.000000 0.000000 -0.586310 0.810087 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.770836 0.637034 0.000000 0.000000 -0.637034 0.770836 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.714884 0.699243 0.000000 0.000000 -0.699243 0.714884 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.646223 0.763149 0.000000 0.000000 -0.763149 0.646223 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.571625 0.820515 0.000000 0.000000 -0.820515 0.571625 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.500180 0.865922 0.000000 0.000000 -0.865922 0.500180 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.471209 0.882022 0.000000 0.000000 -0.882022 0.471209 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Forearm_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Forearm_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Forearm_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Forearm_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Forearm_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Forearm_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Forearm_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Forearm_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Forearm_Transform_sampler" target="Bone_Bip01_L_Forearm/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Hand_Transform" name="Bone_Bip01_L_Hand_Transform">
+      <source id="Bone_Bip01_L_Hand_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Hand_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Hand_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Hand_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Hand_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Hand_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Hand_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Hand_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Hand_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Hand_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Hand_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Hand_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Hand_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Hand_Transform_sampler" target="Bone_Bip01_L_Hand/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Thigh_Transform" name="Bone_Bip01_L_Thigh_Transform">
+      <source id="Bone_Bip01_L_Thigh_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Thigh_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Thigh_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Thigh_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Thigh_Transform-outputs-array" count="256">-0.266822 0.952041 -0.149748 -8.650661 0.735781 0.301588 0.606360 0.819768 0.622441 0.051609 -0.780963 12.701824 0.000000 0.000000 0.000000 1.000000 -0.113149 0.946976 0.300724 -9.414994 0.944981 0.009067 0.327000 2.254016 0.306934 0.321178 -0.895900 11.998032 0.000000 0.000000 0.000000 1.000000 -0.263264 0.925772 0.271364 -9.303583 0.918960 0.155043 0.362593 1.925861 0.293605 0.344830 -0.891565 12.092567 0.000000 0.000000 0.000000 1.000000 -0.403246 0.880791 0.248194 -9.131312 0.880619 0.299767 0.366946 1.546609 0.248802 0.366534 -0.896521 12.299065 0.000000 0.000000 0.000000 1.000000 -0.601844 0.779230 0.174883 -8.724192 0.764776 0.499288 0.407221 0.834715 0.230002 0.378830 -0.896430 12.654672 0.000000 0.000000 0.000000 1.000000 -0.763157 0.637627 0.104993 -8.257033 0.610792 0.658688 0.439389 0.164621 0.211008 0.399452 -0.892140 12.989806 0.000000 0.000000 0.000000 1.000000 -0.855827 0.517092 0.013261 -7.800090 0.467079 0.761529 0.449345 -0.419850 0.222254 0.390755 -0.893260 13.258756 0.000000 0.000000 0.000000 1.000000 -0.900570 0.432195 -0.046703 -7.567014 0.365217 0.810494 0.457948 -0.708250 0.235776 0.395357 -0.887751 13.377252 0.000000 0.000000 0.000000 1.000000 -0.883149 0.461055 -0.086461 -7.567240 0.373582 0.802755 0.464781 -0.739960 0.283697 0.378170 -0.881194 13.375310 0.000000 0.000000 0.000000 1.000000 -0.840744 0.528163 -0.119137 -7.646112 0.417903 0.772924 0.477436 -0.685419 0.344248 0.351613 -0.870552 13.333676 0.000000 0.000000 0.000000 1.000000 -0.765559 0.626877 -0.144722 -7.798820 0.492259 0.715578 0.495611 -0.533064 0.414247 0.308178 -0.856403 13.252392 0.000000 0.000000 0.000000 1.000000 -0.668288 0.725224 -0.165653 -8.090215 0.565678 0.640035 0.519965 -0.191637 0.483115 0.253780 -0.837971 13.090755 0.000000 0.000000 0.000000 1.000000 -0.557155 0.810050 -0.182751 -8.271723 0.625169 0.554020 0.549751 0.099455 0.546573 0.192046 -0.815093 12.973005 0.000000 0.000000 0.000000 1.000000 -0.446460 0.872817 -0.197141 -8.453230 0.662049 0.470426 0.583430 0.390546 0.601968 0.129962 -0.787874 12.855254 0.000000 0.000000 0.000000 1.000000 -0.349908 0.912954 -0.209951 -8.499831 0.675681 0.401196 0.618463 0.496585 0.648860 0.074545 -0.757248 12.817993 0.000000 0.000000 0.000000 1.000000 -0.315959 0.923670 -0.216803 -8.546432 0.672965 0.379258 0.635045 0.602624 0.668796 0.054747 -0.741427 12.780733 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Thigh_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Thigh_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Thigh_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Thigh_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Thigh_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Thigh_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Thigh_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Thigh_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Thigh_Transform_sampler" target="Bone_Bip01_L_Thigh/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Toe0_Transform" name="Bone_Bip01_L_Toe0_Transform">
+      <source id="Bone_Bip01_L_Toe0_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Toe0_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Toe0_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Toe0_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Toe0_Transform-outputs-array" count="256">0.000087 -1.000000 0.000174 0.000000 0.999766 0.000083 -0.021629 0.000000 0.021629 0.000176 0.999766 0.000000 0.000000 0.000000 0.000000 1.000000 0.000062 -1.000000 -0.000291 0.000000 0.999347 0.000051 0.036120 0.000000 -0.036120 -0.000293 0.999347 0.000000 0.000000 0.000000 0.000000 1.000000 0.000069 -1.000000 0.000070 0.000000 0.999962 0.000069 -0.008763 0.000000 0.008763 0.000071 0.999962 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000014 -1.000000 -0.000028 0.000000 0.999994 -0.000014 0.003404 0.000000 -0.003404 -0.000027 0.999994 0.000000 0.000000 0.000000 0.000000 1.000000 0.000002 -1.000000 0.000012 0.000000 0.999999 0.000002 -0.001519 0.000000 0.001519 0.000012 0.999999 0.000000 0.000000 0.000000 0.000000 1.000000 0.000019 -1.000000 0.000001 0.000000 1.000000 0.000019 -0.000126 0.000000 0.000126 0.000001 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000017 -1.000000 -0.000226 0.000000 0.999611 -0.000024 0.027902 0.000000 -0.027902 -0.000225 0.999611 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000090 -1.000000 -0.000256 0.000000 0.999505 -0.000098 0.031454 0.000000 -0.031454 -0.000253 0.999505 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000047 -1.000000 -0.000217 0.000000 0.999640 -0.000053 0.026844 0.000000 -0.026844 -0.000216 0.999640 0.000000 0.000000 0.000000 0.000000 1.000000 -0.000012 -1.000000 -0.000098 0.000000 0.999926 -0.000013 0.012174 0.000000 -0.012174 -0.000098 0.999926 0.000000 0.000000 0.000000 0.000000 1.000000 0.000032 -1.000000 0.000043 0.000000 0.999986 0.000032 -0.005320 0.000000 0.005320 0.000043 0.999986 0.000000 0.000000 0.000000 0.000000 1.000000 0.000064 -1.000000 0.000174 0.000000 0.999767 0.000060 -0.021588 0.000000 0.021588 0.000175 0.999767 0.000000 0.000000 0.000000 0.000000 1.000000 0.000079 -1.000000 0.000251 0.000000 0.999512 0.000071 -0.031227 0.000000 0.031227 0.000253 0.999512 0.000000 0.000000 0.000000 0.000000 1.000000 0.000076 -1.000000 0.000243 0.000000 0.999545 0.000069 -0.030175 0.000000 0.030175 0.000245 0.999545 0.000000 0.000000 0.000000 0.000000 1.000000 0.000068 -1.000000 0.000123 0.000000 0.999884 0.000066 -0.015217 0.000000 0.015217 0.000124 0.999884 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 -1.000000 0.000000 0.000000 1.000000 0.000000 0.000001 0.000000 -0.000001 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Toe0_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Toe0_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Toe0_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_Toe0_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Toe0_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Toe0_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Toe0_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Toe0_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Toe0_Transform_sampler" target="Bone_Bip01_L_Toe0/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_Toe0Nub_Transform" name="Bone_Bip01_L_Toe0Nub_Transform">
+      <source id="Bone_Bip01_L_Toe0Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_Toe0Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Toe0Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Toe0Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_Toe0Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Toe0Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_Toe0Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_Toe0Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_L_Toe0Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_Toe0Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_Toe0Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_Toe0Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_Toe0Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_Toe0Nub_Transform_sampler" target="Bone_Bip01_L_Toe0Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_L_UpperArm_Transform" name="Bone_Bip01_L_UpperArm_Transform">
+      <source id="Bone_Bip01_L_UpperArm_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_L_UpperArm_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_UpperArm_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_UpperArm_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_L_UpperArm_Transform-outputs-array" count="256">0.726266 0.523729 0.445248 0.000000 -0.235732 0.798190 -0.554367 0.000000 -0.645730 0.297659 0.703158 0.000000 0.000000 0.000000 0.000000 1.000000 0.804943 -0.257057 0.534778 0.000000 0.213243 0.966395 0.143556 0.000000 -0.553709 -0.001517 0.832709 0.000000 0.000000 0.000000 0.000000 1.000000 0.727166 0.114915 0.676775 0.000000 -0.199796 0.978636 0.048503 0.000000 -0.656743 -0.170487 0.734590 0.000000 0.000000 0.000000 0.000000 1.000000 0.811266 0.050220 0.582517 0.000000 -0.199462 0.960308 0.194997 0.000000 -0.549603 -0.274385 0.789082 0.000000 0.000000 0.000000 0.000000 1.000000 0.817046 0.268537 0.510219 0.000000 -0.398809 0.902297 0.163745 0.000000 -0.416398 -0.337267 0.844313 0.000000 0.000000 0.000000 0.000000 1.000000 0.810153 0.409438 0.419538 0.000000 -0.501282 0.854893 0.133695 0.000000 -0.303920 -0.318620 0.897838 0.000000 0.000000 0.000000 0.000000 1.000000 0.750206 0.570372 0.334466 0.000000 -0.617071 0.785661 0.044284 0.000000 -0.237518 -0.239611 0.941367 0.000000 0.000000 0.000000 0.000000 1.000000 0.696434 0.655900 0.291160 0.000000 -0.677953 0.734377 -0.032726 0.000000 -0.235286 -0.174601 0.956115 0.000000 0.000000 0.000000 0.000000 1.000000 0.666873 0.693228 0.273339 0.000000 -0.695769 0.710595 -0.104687 0.000000 -0.266806 -0.120368 0.956204 0.000000 0.000000 0.000000 0.000000 1.000000 0.652359 0.712261 0.259059 0.000000 -0.685116 0.700352 -0.200309 0.000000 -0.324104 -0.046812 0.944862 0.000000 0.000000 0.000000 0.000000 1.000000 0.650852 0.714599 0.256396 0.000000 -0.649341 0.698950 -0.299709 0.000000 -0.393380 0.028578 0.918932 0.000000 0.000000 0.000000 0.000000 1.000000 0.655586 0.707913 0.262805 0.000000 -0.595238 0.698624 -0.397008 0.000000 -0.464649 0.103841 0.879385 0.000000 0.000000 0.000000 0.000000 1.000000 0.660052 0.698390 0.276736 0.000000 -0.532094 0.694683 -0.484037 0.000000 -0.530291 0.172240 0.830136 0.000000 0.000000 0.000000 0.000000 1.000000 0.659930 0.692097 0.292393 0.000000 -0.469872 0.683851 -0.558182 0.000000 -0.586269 0.230974 0.776492 0.000000 0.000000 0.000000 0.000000 1.000000 0.653261 0.693674 0.303424 0.000000 -0.417867 0.664512 -0.619525 0.000000 -0.631378 0.277921 0.723963 0.000000 0.000000 0.000000 0.000000 1.000000 0.646120 0.700260 0.303586 0.000000 -0.400886 0.649845 -0.645749 0.000000 -0.649477 0.295528 0.700602 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_UpperArm_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_L_UpperArm_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_L_UpperArm_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_L_UpperArm_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_L_UpperArm_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_L_UpperArm_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_L_UpperArm_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_L_UpperArm_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_L_UpperArm_Transform_sampler" target="Bone_Bip01_L_UpperArm/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_Neck_Transform" name="Bone_Bip01_Neck_Transform">
+      <source id="Bone_Bip01_Neck_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_Neck_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Neck_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Neck_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_Neck_Transform-outputs-array" count="256">0.834038 -0.547560 -0.067519 0.000000 0.551468 0.823810 0.131227 0.000000 -0.016232 -0.146683 0.989050 0.000000 0.000000 0.000000 0.000000 1.000000 0.970393 -0.222410 0.094189 0.000000 0.224697 0.974324 -0.014284 0.000000 -0.088594 0.035025 0.995452 0.000000 0.000000 0.000000 0.000000 1.000000 0.922090 -0.384389 0.044671 0.000000 0.384038 0.923169 0.016549 0.000000 -0.047600 0.001896 0.998865 0.000000 0.000000 0.000000 0.000000 1.000000 0.936091 -0.350984 0.023319 0.000000 0.351152 0.936312 -0.003443 0.000000 -0.020625 0.011411 0.999722 0.000000 0.000000 0.000000 0.000000 1.000000 0.928953 -0.370131 -0.007011 0.000000 0.370152 0.928969 0.001968 0.000000 0.005784 -0.004423 0.999973 0.000000 0.000000 0.000000 0.000000 1.000000 0.945024 -0.326934 -0.006567 0.000000 0.326895 0.945039 -0.006343 0.000000 0.008280 0.003848 0.999958 0.000000 0.000000 0.000000 0.000000 1.000000 0.956542 -0.291301 -0.013047 0.000000 0.291168 0.956606 -0.011238 0.000000 0.015754 0.006951 0.999852 0.000000 0.000000 0.000000 0.000000 1.000000 0.970353 -0.241320 -0.013407 0.000000 0.241070 0.970343 -0.017899 0.000000 0.017328 0.014136 0.999750 0.000000 0.000000 0.000000 0.000000 1.000000 0.979975 -0.198549 -0.015086 0.000000 0.198201 0.979918 -0.021827 0.000000 0.019117 0.018399 0.999648 0.000000 0.000000 0.000000 0.000000 1.000000 0.986769 -0.161333 -0.016065 0.000000 0.160939 0.986687 -0.023412 0.000000 0.019629 0.020517 0.999597 0.000000 0.000000 0.000000 0.000000 1.000000 0.989560 -0.142924 -0.018527 0.000000 0.142578 0.989604 -0.018837 0.000000 0.021026 0.015999 0.999651 0.000000 0.000000 0.000000 0.000000 1.000000 0.989770 -0.140839 -0.022790 0.000000 0.140621 0.990004 -0.010891 0.000000 0.024096 0.007575 0.999681 0.000000 0.000000 0.000000 0.000000 1.000000 0.983321 -0.179401 -0.029923 0.000000 0.179837 0.983617 0.012522 0.000000 0.027186 -0.017694 0.999474 0.000000 0.000000 0.000000 0.000000 1.000000 0.939571 -0.338249 -0.052861 0.000000 0.341333 0.937454 0.068359 0.000000 0.026432 -0.082271 0.996259 0.000000 0.000000 0.000000 0.000000 1.000000 0.849123 -0.520013 -0.092608 0.000000 0.528081 0.839424 0.128447 0.000000 0.010944 -0.157972 0.987383 0.000000 0.000000 0.000000 0.000000 1.000000 0.799684 -0.589567 -0.113648 0.000000 0.600420 0.785180 0.151617 0.000000 -0.000154 -0.189482 0.981884 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Neck_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Neck_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_Neck_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Neck_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_Neck_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_Neck_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_Neck_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_Neck_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_Neck_Transform_sampler" target="Bone_Bip01_Neck/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_Pelvis_Transform" name="Bone_Bip01_Pelvis_Transform">
+      <source id="Bone_Bip01_Pelvis_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_Pelvis_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_Pelvis_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Pelvis_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_Pelvis_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_Pelvis_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Pelvis_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_Pelvis_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_Pelvis_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_Pelvis_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_Pelvis_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_Pelvis_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_Pelvis_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_Pelvis_Transform_sampler" target="Bone_Bip01_Pelvis/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Calf_Transform" name="Bone_Bip01_R_Calf_Transform">
+      <source id="Bone_Bip01_R_Calf_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Calf_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Calf_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Calf_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Calf_Transform-outputs-array" count="256">0.476935 0.878938 0.000000 0.000000 -0.878938 0.476935 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.119946 0.992780 0.000000 0.000000 -0.992780 0.119946 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.014872 0.999889 0.000000 0.000000 -0.999889 0.014872 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.087392 0.996174 0.000000 0.000000 -0.996174 0.087392 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.216096 0.976372 0.000000 0.000000 -0.976372 0.216096 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.486673 0.873584 0.000000 0.000000 -0.873584 0.486673 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.645163 0.764045 0.000000 0.000000 -0.764045 0.645163 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.726320 0.687357 0.000000 0.000000 -0.687357 0.726320 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.762148 0.647403 0.000000 0.000000 -0.647403 0.762148 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.756707 0.653754 0.000000 0.000000 -0.653754 0.756707 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.733596 0.679586 0.000000 0.000000 -0.679586 0.733596 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.692755 0.721173 0.000000 0.000000 -0.721173 0.692755 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.646377 0.763018 0.000000 0.000000 -0.763018 0.646377 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.600235 0.799824 0.000000 0.000000 -0.799824 0.600235 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.561274 0.827630 0.000000 0.000000 -0.827630 0.561274 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.548142 0.836385 0.000000 0.000000 -0.836385 0.548142 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Calf_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Calf_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Calf_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Calf_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Calf_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Calf_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Calf_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Calf_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Calf_Transform_sampler" target="Bone_Bip01_R_Calf/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Clavicle_Transform" name="Bone_Bip01_R_Clavicle_Transform">
+      <source id="Bone_Bip01_R_Clavicle_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Clavicle_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Clavicle_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Clavicle_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Clavicle_Transform-outputs-array" count="256">-0.545050 -0.508292 -0.666753 1.343255 0.040617 -0.810340 0.584550 -2.798311 -0.837419 0.291527 0.462321 -4.533360 0.000000 0.000000 0.000000 1.000000 -0.378796 -0.317068 -0.869472 2.651789 -0.187292 -0.893780 0.407528 -3.207336 -0.906331 0.317215 0.279177 -3.701024 0.000000 0.000000 0.000000 1.000000 -0.446036 -0.364180 -0.817572 2.140671 -0.081416 -0.893177 0.442275 -3.078609 -0.891304 0.263834 0.368738 -3.990822 0.000000 0.000000 0.000000 1.000000 -0.441662 -0.356549 -0.823290 2.070771 -0.038422 -0.909282 0.414403 -3.139024 -0.896358 0.214659 0.387896 -4.021071 0.000000 0.000000 0.000000 1.000000 -0.445621 -0.362954 -0.818344 1.933397 0.034925 -0.920477 0.389234 -3.077327 -0.894540 0.144870 0.422861 -4.120636 0.000000 0.000000 0.000000 1.000000 -0.429260 -0.328258 -0.841417 2.048132 0.062727 -0.940201 0.334795 -3.034882 -0.901000 0.090935 0.424181 -4.102525 0.000000 0.000000 0.000000 1.000000 -0.427580 -0.290841 -0.855913 2.136941 0.080159 -0.955299 0.284568 -2.959185 -0.900417 0.053067 0.431780 -4.110132 0.000000 0.000000 0.000000 1.000000 -0.430798 -0.242943 -0.869133 2.274360 0.061026 -0.968721 0.240532 -2.876781 -0.900383 0.050581 0.432149 -4.096507 0.000000 0.000000 0.000000 1.000000 -0.439953 -0.198407 -0.875829 2.391346 0.016801 -0.976936 0.212872 -2.785395 -0.897864 0.078939 0.433139 -4.092467 0.000000 0.000000 0.000000 1.000000 -0.447102 -0.159572 -0.880135 2.491015 -0.037188 -0.979792 0.196531 -2.697527 -0.893710 0.120600 0.432133 -4.091877 0.000000 0.000000 0.000000 1.000000 -0.455009 -0.139178 -0.879543 2.532829 -0.090065 -0.975453 0.200947 -2.631356 -0.885921 0.170648 0.431304 -4.109344 0.000000 0.000000 0.000000 1.000000 -0.464555 -0.131506 -0.875725 2.532086 -0.140724 -0.965382 0.219622 -2.584033 -0.874291 0.225262 0.429967 -4.139064 0.000000 0.000000 0.000000 1.000000 -0.485294 -0.174690 -0.856723 2.380456 -0.154678 -0.947231 0.280764 -2.610665 -0.860561 0.268769 0.432664 -4.215862 0.000000 0.000000 0.000000 1.000000 -0.526473 -0.326514 -0.784993 1.884313 -0.071000 -0.903203 0.423301 -2.724103 -0.847222 0.278591 0.452329 -4.399366 0.000000 0.000000 0.000000 1.000000 -0.560135 -0.485713 -0.671067 1.297984 0.046669 -0.827291 0.559832 -2.721398 -0.827086 0.282263 0.486062 -4.605829 0.000000 0.000000 0.000000 1.000000 -0.571090 -0.542395 -0.616168 1.065908 0.096362 -0.789719 0.605854 -2.666226 -0.815212 0.286622 0.503267 -4.688081 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Clavicle_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Clavicle_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Clavicle_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Clavicle_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Clavicle_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Clavicle_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Clavicle_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Clavicle_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Clavicle_Transform_sampler" target="Bone_Bip01_R_Clavicle/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger0_Transform" name="Bone_Bip01_R_Finger0_Transform">
+      <source id="Bone_Bip01_R_Finger0_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger0_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger0_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger0_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger0_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger0_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger0_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger0_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger0_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger0_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger0_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger0_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger0_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger0_Transform_sampler" target="Bone_Bip01_R_Finger0/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger01_Transform" name="Bone_Bip01_R_Finger01_Transform">
+      <source id="Bone_Bip01_R_Finger01_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger01_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger01_Transform_sampler" target="Bone_Bip01_R_Finger01/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger02_Transform" name="Bone_Bip01_R_Finger02_Transform">
+      <source id="Bone_Bip01_R_Finger02_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger02_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger02_Transform_sampler" target="Bone_Bip01_R_Finger02/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger0Nub_Transform" name="Bone_Bip01_R_Finger0Nub_Transform">
+      <source id="Bone_Bip01_R_Finger0Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger0Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger0Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger0Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger0Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger0Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger0Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger0Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger0Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger0Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger0Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger0Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger0Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger0Nub_Transform_sampler" target="Bone_Bip01_R_Finger0Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger1_Transform" name="Bone_Bip01_R_Finger1_Transform">
+      <source id="Bone_Bip01_R_Finger1_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger1_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger1_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger1_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger1_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger1_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger1_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger1_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger1_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger1_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger1_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger1_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger1_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger1_Transform_sampler" target="Bone_Bip01_R_Finger1/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger11_Transform" name="Bone_Bip01_R_Finger11_Transform">
+      <source id="Bone_Bip01_R_Finger11_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger11_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger11_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger11_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger11_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger11_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger11_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger11_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger11_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger11_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger11_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger11_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger11_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger11_Transform_sampler" target="Bone_Bip01_R_Finger11/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger12_Transform" name="Bone_Bip01_R_Finger12_Transform">
+      <source id="Bone_Bip01_R_Finger12_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger12_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger12_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger12_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger12_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger12_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger12_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger12_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger12_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger12_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger12_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger12_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger12_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger12_Transform_sampler" target="Bone_Bip01_R_Finger12/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger1Nub_Transform" name="Bone_Bip01_R_Finger1Nub_Transform">
+      <source id="Bone_Bip01_R_Finger1Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger1Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger1Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger1Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger1Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger1Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger1Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger1Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger1Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger1Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger1Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger1Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger1Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger1Nub_Transform_sampler" target="Bone_Bip01_R_Finger1Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger2_Transform" name="Bone_Bip01_R_Finger2_Transform">
+      <source id="Bone_Bip01_R_Finger2_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger2_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger2_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger2_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger2_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger2_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger2_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger2_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger2_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger2_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger2_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger2_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger2_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger2_Transform_sampler" target="Bone_Bip01_R_Finger2/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger21_Transform" name="Bone_Bip01_R_Finger21_Transform">
+      <source id="Bone_Bip01_R_Finger21_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger21_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger21_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger21_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger21_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger21_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger21_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger21_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger21_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger21_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger21_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger21_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger21_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger21_Transform_sampler" target="Bone_Bip01_R_Finger21/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger22_Transform" name="Bone_Bip01_R_Finger22_Transform">
+      <source id="Bone_Bip01_R_Finger22_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger22_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger22_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger22_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger22_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger22_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger22_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger22_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger22_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger22_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger22_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger22_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger22_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger22_Transform_sampler" target="Bone_Bip01_R_Finger22/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Finger2Nub_Transform" name="Bone_Bip01_R_Finger2Nub_Transform">
+      <source id="Bone_Bip01_R_Finger2Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Finger2Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger2Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger2Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Finger2Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger2Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Finger2Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Finger2Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Finger2Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Finger2Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Finger2Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Finger2Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Finger2Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Finger2Nub_Transform_sampler" target="Bone_Bip01_R_Finger2Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Foot_Transform" name="Bone_Bip01_R_Foot_Transform">
+      <source id="Bone_Bip01_R_Foot_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Foot_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Foot_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Foot_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Foot_Transform-outputs-array" count="256">0.887951 -0.370459 0.272588 0.000000 0.373856 0.926562 0.041409 0.000000 -0.267910 0.065139 0.961239 0.000000 0.000000 0.000000 0.000000 1.000000 0.739960 -0.540600 0.400264 0.000000 0.612625 0.787342 -0.069156 0.000000 -0.277758 0.296384 0.913787 0.000000 0.000000 0.000000 0.000000 1.000000 0.949149 -0.164206 0.268613 0.000000 0.109684 0.972224 0.206760 0.000000 -0.295104 -0.166783 0.940796 0.000000 0.000000 0.000000 0.000000 1.000000 0.763053 -0.477013 0.436129 0.000000 0.476580 0.871056 0.118885 0.000000 -0.436602 0.117134 0.891997 0.000000 0.000000 0.000000 0.000000 1.000000 0.851343 -0.371540 0.370370 0.000000 0.364700 0.926642 0.091260 0.000000 -0.377107 0.057380 0.924390 0.000000 0.000000 0.000000 0.000000 1.000000 0.847052 -0.403547 0.345909 0.000000 0.420025 0.907029 0.029619 0.000000 -0.325703 0.120202 0.937800 0.000000 0.000000 0.000000 0.000000 1.000000 0.930930 -0.242663 0.272917 0.000000 0.262940 0.963992 -0.039767 0.000000 -0.253439 0.108781 0.961215 0.000000 0.000000 0.000000 0.000000 1.000000 0.963772 -0.134127 0.230551 0.000000 0.157027 0.984020 -0.083949 0.000000 -0.215607 0.117110 0.969432 0.000000 0.000000 0.000000 0.000000 1.000000 0.969546 -0.088598 0.228323 0.000000 0.107604 0.991572 -0.072160 0.000000 -0.220006 0.094531 0.970908 0.000000 0.000000 0.000000 0.000000 1.000000 0.973359 -0.064834 0.219931 0.000000 0.080004 0.994940 -0.060773 0.000000 -0.214878 0.076749 0.973621 0.000000 0.000000 0.000000 0.000000 1.000000 0.971318 -0.083285 0.222723 0.000000 0.093309 0.995027 -0.034847 0.000000 -0.218713 0.054630 0.974259 0.000000 0.000000 0.000000 0.000000 1.000000 0.966855 -0.117672 0.226595 0.000000 0.122090 0.992504 -0.005530 0.000000 -0.224246 0.033012 0.973973 0.000000 0.000000 0.000000 0.000000 1.000000 0.958729 -0.162384 0.233389 0.000000 0.160394 0.986667 0.027610 0.000000 -0.234761 0.010964 0.971991 0.000000 0.000000 0.000000 0.000000 1.000000 0.948935 -0.204450 0.240254 0.000000 0.195731 0.978828 0.059876 0.000000 -0.247409 -0.009793 0.968862 0.000000 0.000000 0.000000 0.000000 1.000000 0.940387 -0.235207 0.245662 0.000000 0.220032 0.971524 0.087903 0.000000 -0.259342 -0.028609 0.965362 0.000000 0.000000 0.000000 0.000000 1.000000 0.938628 -0.240703 0.247062 0.000000 0.223065 0.969916 0.097491 0.000000 -0.263096 -0.036396 0.964083 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Foot_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Foot_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Foot_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Foot_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Foot_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Foot_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Foot_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Foot_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Foot_Transform_sampler" target="Bone_Bip01_R_Foot/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Forearm_Transform" name="Bone_Bip01_R_Forearm_Transform">
+      <source id="Bone_Bip01_R_Forearm_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Forearm_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Forearm_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Forearm_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Forearm_Transform-outputs-array" count="256">0.969200 0.246274 0.000000 0.000000 -0.246274 0.969200 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.678719 0.734398 0.000000 0.000000 -0.734398 0.678719 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.611110 0.791546 0.000000 0.000000 -0.791546 0.611110 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.574862 0.818250 0.000000 0.000000 -0.818250 0.574862 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.571151 0.820845 0.000000 0.000000 -0.820845 0.571151 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.589087 0.808070 0.000000 0.000000 -0.808070 0.589087 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.623429 0.781880 0.000000 0.000000 -0.781880 0.623429 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.663609 0.748079 0.000000 0.000000 -0.748079 0.663609 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.709418 0.704788 0.000000 0.000000 -0.704788 0.709418 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.763171 0.646197 0.000000 0.000000 -0.646197 0.763171 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.817983 0.575242 0.000000 0.000000 -0.575242 0.817983 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.870064 0.492939 0.000000 0.000000 -0.492939 0.870064 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.915334 0.402694 0.000000 0.000000 -0.402694 0.915334 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.951362 0.308074 0.000000 0.000000 -0.308074 0.951362 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.976932 0.213551 0.000000 0.000000 -0.213551 0.976932 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.984655 0.174512 0.000000 0.000000 -0.174512 0.984655 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Forearm_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Forearm_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Forearm_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Forearm_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Forearm_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Forearm_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Forearm_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Forearm_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Forearm_Transform_sampler" target="Bone_Bip01_R_Forearm/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Hand_Transform" name="Bone_Bip01_R_Hand_Transform">
+      <source id="Bone_Bip01_R_Hand_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Hand_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Hand_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Hand_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Hand_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Hand_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Hand_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Hand_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Hand_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Hand_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Hand_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Hand_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Hand_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Hand_Transform_sampler" target="Bone_Bip01_R_Hand/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Thigh_Transform" name="Bone_Bip01_R_Thigh_Transform">
+      <source id="Bone_Bip01_R_Thigh_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Thigh_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Thigh_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Thigh_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Thigh_Transform-outputs-array" count="256">-0.589632 0.749656 0.300582 -11.238504 0.703880 0.659459 -0.263947 3.954347 -0.396091 0.055942 -0.916506 -9.753178 0.000000 0.000000 0.000000 1.000000 -0.444543 0.346551 0.826005 -10.914387 0.520600 0.850359 -0.076590 1.429715 -0.728943 0.395970 -0.558435 -10.851777 0.000000 0.000000 0.000000 1.000000 -0.336642 0.461344 0.820873 -11.065779 0.611580 0.769981 -0.181931 1.135818 -0.715990 0.440784 -0.541357 -10.592642 0.000000 0.000000 0.000000 1.000000 -0.407123 0.496236 0.766812 -11.374837 0.591723 0.782835 -0.192442 0.292837 -0.695783 0.375393 -0.612344 -10.388767 0.000000 0.000000 0.000000 1.000000 -0.490550 0.554817 0.671967 -11.756033 0.565075 0.789548 -0.239383 -0.334937 -0.663363 0.262283 -0.700826 -9.919293 0.000000 0.000000 0.000000 1.000000 -0.663924 0.479500 0.573833 -12.093224 0.414209 0.874697 -0.251666 -0.946095 -0.622604 0.070600 -0.779346 -9.476221 0.000000 0.000000 0.000000 1.000000 -0.765791 0.432005 0.476378 -12.352274 0.341417 0.900861 -0.268111 -1.312925 -0.544975 -0.042674 -0.837365 -9.075611 0.000000 0.000000 0.000000 1.000000 -0.810666 0.454316 0.369348 -12.488540 0.341770 0.879366 -0.331526 -1.315177 -0.475410 -0.142525 -0.868143 -8.890819 0.000000 0.000000 0.000000 1.000000 -0.833318 0.428345 0.349432 -12.522633 0.322581 0.890135 -0.321872 -0.939727 -0.448914 -0.155502 -0.879941 -8.888128 0.000000 0.000000 0.000000 1.000000 -0.829666 0.459097 0.317622 -12.511467 0.360797 0.875122 -0.322471 -0.036255 -0.426004 -0.152947 -0.891700 -8.989273 0.000000 0.000000 0.000000 1.000000 -0.810953 0.507261 0.291619 -12.351040 0.416159 0.850390 -0.321945 0.855541 -0.411300 -0.139722 -0.900727 -9.135133 0.000000 0.000000 0.000000 1.000000 -0.775410 0.572734 0.265925 -12.190613 0.488881 0.811044 -0.321252 1.747337 -0.399668 -0.119096 -0.908890 -9.280993 0.000000 0.000000 0.000000 1.000000 -0.729833 0.638740 0.243629 -11.886116 0.561844 0.763462 -0.318523 2.666159 -0.389455 -0.095586 -0.916072 -9.402952 0.000000 0.000000 0.000000 1.000000 -0.678603 0.699530 0.223956 -11.581619 0.629458 0.710991 -0.313489 3.584982 -0.378526 -0.071764 -0.922805 -9.524913 0.000000 0.000000 0.000000 1.000000 -0.628898 0.749365 0.207218 -11.421714 0.685971 0.660254 -0.305791 3.950182 -0.365966 -0.050166 -0.929275 -9.543248 0.000000 0.000000 0.000000 1.000000 -0.608720 0.767811 0.199814 -11.261809 0.707732 0.639326 -0.300631 4.315382 -0.358574 -0.041586 -0.932575 -9.561584 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Thigh_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Thigh_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Thigh_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Thigh_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Thigh_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Thigh_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Thigh_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Thigh_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Thigh_Transform_sampler" target="Bone_Bip01_R_Thigh/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Toe0_Transform" name="Bone_Bip01_R_Toe0_Transform">
+      <source id="Bone_Bip01_R_Toe0_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Toe0_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Toe0_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Toe0_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Toe0_Transform-outputs-array" count="256">-0.012563 -0.978598 0.205399 0.000000 0.999875 -0.014264 -0.006805 0.000000 0.009589 0.205288 0.978655 0.000000 0.000000 0.000000 0.000000 1.000000 -0.243642 -0.830425 0.501032 0.000000 0.958991 -0.283414 -0.003400 0.000000 0.144823 0.479657 0.865422 0.000000 0.000000 0.000000 0.000000 1.000000 -0.554661 -0.690773 0.463878 0.000000 0.764278 -0.643370 -0.044208 0.000000 0.328983 0.330011 0.884795 0.000000 0.000000 0.000000 0.000000 1.000000 -0.208045 -0.931874 0.297199 0.000000 0.967678 -0.240371 -0.076295 0.000000 0.142535 0.271720 0.951763 0.000000 0.000000 0.000000 0.000000 1.000000 -0.213649 -0.939237 0.268679 0.000000 0.967166 -0.242111 -0.077287 0.000000 0.137641 0.243345 0.960124 0.000000 0.000000 0.000000 0.000000 1.000000 -0.028907 -0.980867 0.192519 0.000000 0.993346 -0.049669 -0.103908 0.000000 0.111482 0.188234 0.975776 0.000000 0.000000 0.000000 0.000000 1.000000 -0.064393 -0.978211 0.197376 0.000000 0.995167 -0.077638 -0.060115 0.000000 0.074129 0.192552 0.978483 0.000000 0.000000 0.000000 0.000000 1.000000 -0.057852 -0.987023 0.149799 0.000000 0.998283 -0.055814 0.017774 0.000000 -0.009182 0.150570 0.988557 0.000000 0.000000 0.000000 0.000000 1.000000 -0.093957 -0.982447 0.161152 0.000000 0.995553 -0.091605 0.021979 0.000000 -0.006830 0.162501 0.986685 0.000000 0.000000 0.000000 0.000000 1.000000 -0.113472 -0.979778 0.164798 0.000000 0.993425 -0.109354 0.033881 0.000000 -0.015174 0.167559 0.985745 0.000000 0.000000 0.000000 0.000000 1.000000 -0.111574 -0.979925 0.165221 0.000000 0.993661 -0.107706 0.032219 0.000000 -0.013777 0.167768 0.985730 0.000000 0.000000 0.000000 0.000000 1.000000 -0.100415 -0.981491 0.163071 0.000000 0.994871 -0.097043 0.028537 0.000000 -0.012183 0.165100 0.986201 0.000000 0.000000 0.000000 0.000000 1.000000 -0.082453 -0.983800 0.159185 0.000000 0.996565 -0.080152 0.020833 0.000000 -0.007736 0.160356 0.987029 0.000000 0.000000 0.000000 0.000000 1.000000 -0.065012 -0.985805 0.154794 0.000000 0.997879 -0.063716 0.013329 0.000000 -0.003277 0.155332 0.987857 0.000000 0.000000 0.000000 0.000000 1.000000 -0.053623 -0.986982 0.151626 0.000000 0.998561 -0.053011 0.008076 0.000000 0.000067 0.151841 0.988405 0.000000 0.000000 0.000000 0.000000 1.000000 -0.053851 -0.986964 0.151667 0.000000 0.998549 -0.053226 0.008183 0.000000 -0.000004 0.151887 0.988398 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Toe0_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Toe0_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Toe0_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_Toe0_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Toe0_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Toe0_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Toe0_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Toe0_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Toe0_Transform_sampler" target="Bone_Bip01_R_Toe0/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_Toe0Nub_Transform" name="Bone_Bip01_R_Toe0Nub_Transform">
+      <source id="Bone_Bip01_R_Toe0Nub_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_Toe0Nub_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Toe0Nub_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Toe0Nub_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_Toe0Nub_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Toe0Nub_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_Toe0Nub_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_Toe0Nub_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Bip01_R_Toe0Nub_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_Toe0Nub_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_Toe0Nub_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_Toe0Nub_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_Toe0Nub_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_Toe0Nub_Transform_sampler" target="Bone_Bip01_R_Toe0Nub/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_R_UpperArm_Transform" name="Bone_Bip01_R_UpperArm_Transform">
+      <source id="Bone_Bip01_R_UpperArm_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_R_UpperArm_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_UpperArm_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_UpperArm_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_R_UpperArm_Transform-outputs-array" count="256">0.782625 0.300715 -0.545039 0.000000 -0.185775 0.948505 0.256564 0.000000 0.594125 -0.099538 0.798190 0.000000 0.000000 0.000000 0.000000 1.000000 0.639243 0.130208 -0.757901 0.000000 -0.496316 0.822671 -0.277277 0.000000 0.587399 0.553406 0.590511 0.000000 0.000000 0.000000 0.000000 1.000000 0.602749 0.046653 -0.796566 0.000000 -0.464772 0.831988 -0.302958 0.000000 0.648599 0.552829 0.523163 0.000000 0.000000 0.000000 0.000000 1.000000 0.652422 -0.106028 -0.750402 0.000000 -0.310164 0.866085 -0.392039 0.000000 0.691479 0.488523 0.532167 0.000000 0.000000 0.000000 0.000000 1.000000 0.648167 -0.264210 -0.714194 0.000000 -0.077488 0.910127 -0.407018 0.000000 0.757545 0.319157 0.569441 0.000000 0.000000 0.000000 0.000000 1.000000 0.615794 -0.390774 -0.684173 0.000000 0.154590 0.911388 -0.381411 0.000000 0.772593 0.129105 0.621637 0.000000 0.000000 0.000000 0.000000 1.000000 0.564088 -0.464128 -0.682928 0.000000 0.346272 0.883801 -0.314629 0.000000 0.749600 -0.059000 0.659256 0.000000 0.000000 0.000000 0.000000 1.000000 0.547256 -0.472443 -0.690875 0.000000 0.432418 0.866348 -0.249911 0.000000 0.716607 -0.161981 0.678408 0.000000 0.000000 0.000000 0.000000 1.000000 0.573985 -0.433169 -0.694914 0.000000 0.433058 0.880820 -0.191355 0.000000 0.694983 -0.191104 0.693165 0.000000 0.000000 0.000000 0.000000 1.000000 0.619134 -0.368253 -0.693587 0.000000 0.402617 0.907168 -0.122254 0.000000 0.674220 -0.203558 0.709924 0.000000 0.000000 0.000000 0.000000 1.000000 0.675963 -0.274449 -0.683924 0.000000 0.334903 0.941097 -0.046645 0.000000 0.656441 -0.197518 0.728060 0.000000 0.000000 0.000000 0.000000 1.000000 0.731257 -0.156172 -0.663983 0.000000 0.240818 0.969861 0.037103 0.000000 0.638177 -0.187031 0.746827 0.000000 0.000000 0.000000 0.000000 1.000000 0.774791 -0.019526 -0.631916 0.000000 0.127778 0.983732 0.126271 0.000000 0.619171 -0.178578 0.764681 0.000000 0.000000 0.000000 0.000000 1.000000 0.799783 0.123212 -0.587508 0.000000 0.009363 0.976029 0.217438 0.000000 0.600216 -0.179404 0.779458 0.000000 0.000000 0.000000 0.000000 1.000000 0.806353 0.257374 -0.532498 0.000000 -0.100453 0.946866 0.305538 0.000000 0.582842 -0.192881 0.789362 0.000000 0.000000 0.000000 0.000000 1.000000 0.803877 0.314596 -0.504788 0.000000 -0.144131 0.926412 0.347833 0.000000 0.577068 -0.206859 0.790064 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_UpperArm_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_R_UpperArm_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_R_UpperArm_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_R_UpperArm_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_R_UpperArm_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_R_UpperArm_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_R_UpperArm_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_R_UpperArm_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_R_UpperArm_Transform_sampler" target="Bone_Bip01_R_UpperArm/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_Spine_Transform" name="Bone_Bip01_Spine_Transform">
+      <source id="Bone_Bip01_Spine_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_Spine_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Spine_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Spine_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_Spine_Transform-outputs-array" count="256">0.963199 -0.228146 -0.142117 0.000000 0.243962 0.963980 0.105943 0.000000 0.112828 -0.136715 0.984164 0.000000 0.000000 0.000000 0.000000 1.000000 0.987807 -0.147904 -0.048607 0.000000 0.146108 0.988513 -0.038652 0.000000 0.053766 0.031079 0.998070 0.000000 0.000000 0.000000 0.000000 1.000000 0.984662 -0.156818 -0.076485 0.000000 0.153360 0.986945 -0.049198 0.000000 0.083202 0.036714 0.995856 0.000000 0.000000 0.000000 0.000000 1.000000 0.993253 -0.079038 -0.084858 0.000000 0.074330 0.995587 -0.057283 0.000000 0.089011 0.050589 0.994745 0.000000 0.000000 0.000000 0.000000 1.000000 0.991224 -0.022172 -0.130319 0.000000 0.015317 0.998457 -0.053373 0.000000 0.131301 0.050908 0.990034 0.000000 0.000000 0.000000 0.000000 1.000000 0.985366 0.038824 -0.165973 0.000000 -0.046168 0.998108 -0.040618 0.000000 0.164082 0.047686 0.985293 0.000000 0.000000 0.000000 0.000000 1.000000 0.975673 0.085425 -0.201903 0.000000 -0.091539 0.995577 -0.021123 0.000000 0.199206 0.039091 0.979178 0.000000 0.000000 0.000000 0.000000 1.000000 0.971030 0.099802 -0.217116 0.000000 -0.103210 0.994650 -0.004384 0.000000 0.215517 0.026666 0.976136 0.000000 0.000000 0.000000 0.000000 1.000000 0.972744 0.082587 -0.216676 0.000000 -0.082459 0.996548 0.009647 0.000000 0.216725 0.008483 0.976196 0.000000 0.000000 0.000000 0.000000 1.000000 0.976088 0.051492 -0.211191 0.000000 -0.047190 0.998564 0.025363 0.000000 0.212193 -0.014790 0.977116 0.000000 0.000000 0.000000 0.000000 1.000000 0.979620 0.006957 -0.200737 0.000000 0.001464 0.999126 0.041774 0.000000 0.200852 -0.041217 0.978754 0.000000 0.000000 0.000000 0.000000 1.000000 0.980986 -0.045399 -0.188694 0.000000 0.057563 0.996568 0.059491 0.000000 0.185346 -0.069222 0.980232 0.000000 0.000000 0.000000 0.000000 1.000000 0.978942 -0.102371 -0.176614 0.000000 0.117665 0.989955 0.078389 0.000000 0.166815 -0.097519 0.981154 0.000000 0.000000 0.000000 0.000000 1.000000 0.973101 -0.159737 -0.166006 0.000000 0.177492 0.979211 0.098198 0.000000 0.146869 -0.125021 0.981223 0.000000 0.000000 0.000000 0.000000 1.000000 0.964213 -0.213082 -0.157766 0.000000 0.232659 0.965362 0.118098 0.000000 0.127137 -0.150577 0.980389 0.000000 0.000000 0.000000 0.000000 1.000000 0.959109 -0.236243 -0.155882 0.000000 0.256759 0.957967 0.127963 0.000000 0.119099 -0.162754 0.979452 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Spine_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Spine_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_Spine_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Spine_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_Spine_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_Spine_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_Spine_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_Spine_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_Spine_Transform_sampler" target="Bone_Bip01_Spine/Transform" />
+    </animation>
+    <animation id="Bone_Bip01_Spine1_Transform" name="Bone_Bip01_Spine1_Transform">
+      <source id="Bone_Bip01_Spine1_Transform-inputs" name="inputs">
+        <float_array id="Bone_Bip01_Spine1_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Spine1_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Spine1_Transform-outputs" name="outputs">
+        <float_array id="Bone_Bip01_Spine1_Transform-outputs-array" count="256">0.987793 -0.155694 0.004985 22.913282 0.155016 0.985639 0.066976 -0.018449 -0.015341 -0.065386 0.997742 0.002051 0.000000 0.000000 0.000000 1.000000 0.843430 -0.536188 -0.033599 22.912212 0.536906 0.839055 0.087850 -0.018984 -0.018913 -0.092135 0.995567 0.001787 0.000000 0.000000 0.000000 1.000000 0.820994 -0.566532 -0.070788 22.911676 0.570768 0.817437 0.077598 -0.019252 0.013903 -0.104111 0.994468 0.001654 0.000000 0.000000 0.000000 1.000000 0.827209 -0.546896 -0.128958 22.911142 0.555639 0.830316 0.042903 -0.019520 0.083612 -0.107143 0.990722 0.001522 0.000000 0.000000 0.000000 1.000000 0.846576 -0.491616 -0.204016 22.910606 0.503164 0.864173 0.005514 -0.019788 0.173595 -0.107321 0.978952 0.001389 0.000000 0.000000 0.000000 1.000000 0.864789 -0.421515 -0.272883 22.910072 0.431826 0.901631 -0.024234 -0.020056 0.256255 -0.096881 0.961742 0.001257 0.000000 0.000000 0.000000 1.000000 0.877487 -0.348615 -0.329369 22.909536 0.355315 0.933813 -0.041767 -0.020324 0.322130 -0.080379 0.943277 0.001124 0.000000 0.000000 0.000000 1.000000 0.888347 -0.298247 -0.349125 22.909002 0.302427 0.952162 -0.043877 -0.020592 0.345510 -0.066607 0.936048 0.000992 0.000000 0.000000 0.000000 1.000000 0.903873 -0.267477 -0.333872 22.908611 0.271736 0.961741 -0.034831 -0.020626 0.330415 -0.059242 0.941975 0.001031 0.000000 0.000000 0.000000 1.000000 0.923185 -0.236925 -0.302650 22.908222 0.241988 0.970047 -0.021240 -0.020660 0.298617 -0.053629 0.952865 0.001070 0.000000 0.000000 0.000000 1.000000 0.943515 -0.210656 -0.255740 22.907831 0.216802 0.976206 -0.004252 -0.020695 0.250550 -0.051433 0.966736 0.001110 0.000000 0.000000 0.000000 1.000000 0.962289 -0.185741 -0.198747 22.907442 0.192290 0.981238 0.013999 -0.020729 0.192418 -0.051688 0.979951 0.001149 0.000000 0.000000 0.000000 1.000000 0.977397 -0.162050 -0.135774 22.907051 0.167807 0.985300 0.032007 -0.020764 0.128591 -0.054067 0.990223 0.001188 0.000000 0.000000 0.000000 1.000000 0.987740 -0.138318 -0.072368 22.906662 0.141976 0.988701 0.048097 -0.020798 0.064898 -0.057782 0.996218 0.001227 0.000000 0.000000 0.000000 1.000000 0.993377 -0.114063 -0.013872 22.906271 0.114703 0.991519 0.061098 -0.020832 0.006786 -0.062284 0.998035 0.001266 0.000000 0.000000 0.000000 1.000000 0.994515 -0.104035 0.010810 22.905882 0.103073 0.992362 0.067780 -0.020867 -0.017779 -0.066294 0.997642 0.001306 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Spine1_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Bip01_Spine1_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Bip01_Spine1_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_Bip01_Spine1_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Bip01_Spine1_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Bip01_Spine1_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Bip01_Spine1_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Bip01_Spine1_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Bip01_Spine1_Transform_sampler" target="Bone_Bip01_Spine1/Transform" />
+    </animation>
+    <animation id="Bone_Plane01_Transform" name="Bone_Plane01_Transform">
+      <source id="Bone_Plane01_Transform-inputs" name="inputs">
+        <float_array id="Bone_Plane01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Plane01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Plane01_Transform-outputs" name="outputs">
+        <float_array id="Bone_Plane01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Plane01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_Plane01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_Plane01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_Plane01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_Plane01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_Plane01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_Plane01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_Plane01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_Plane01_Transform_sampler" target="Bone_Plane01/Transform" />
+    </animation>
+    <animation id="Bone_equip_right_Transform" name="Bone_equip_right_Transform">
+      <source id="Bone_equip_right_Transform-inputs" name="inputs">
+        <float_array id="Bone_equip_right_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_equip_right_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_equip_right_Transform-outputs" name="outputs">
+        <float_array id="Bone_equip_right_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_equip_right_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_equip_right_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_equip_right_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_equip_right_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_equip_right_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_equip_right_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_equip_right_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_equip_right_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_equip_right_Transform_sampler" target="Bone_equip_right/Transform" />
+    </animation>
+    <animation id="Bone_fc_01_Transform" name="Bone_fc_01_Transform">
+      <source id="Bone_fc_01_Transform-inputs" name="inputs">
+        <float_array id="Bone_fc_01_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_fc_01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_fc_01_Transform-outputs" name="outputs">
+        <float_array id="Bone_fc_01_Transform-outputs-array" count="256">-0.807609 0.506495 -0.302044 0.000000 0.533002 0.846090 -0.006349 0.000000 0.252341 -0.166117 -0.953273 0.000000 0.000000 0.000000 0.000000 1.000000 -0.113056 0.953055 -0.280899 0.000000 0.993327 0.114898 -0.009957 0.000000 0.022785 -0.280150 -0.959686 0.000000 0.000000 0.000000 0.000000 1.000000 -0.127124 0.949022 -0.288440 0.000000 0.988543 0.145079 0.041657 0.000000 0.081380 -0.279839 -0.956591 0.000000 0.000000 0.000000 0.000000 1.000000 -0.081724 0.945280 -0.315859 0.000000 0.979632 0.134512 0.149092 0.000000 0.183421 -0.297241 -0.937019 0.000000 0.000000 0.000000 0.000000 1.000000 -0.162992 0.917471 -0.362879 0.000000 0.922779 0.271919 0.273017 0.000000 0.349159 -0.290358 -0.890944 0.000000 0.000000 0.000000 0.000000 1.000000 -0.239486 0.875376 -0.419956 0.000000 0.830405 0.408797 0.378565 0.000000 0.503064 -0.258073 -0.824818 0.000000 0.000000 0.000000 0.000000 1.000000 -0.327684 0.815436 -0.477166 0.000000 0.711285 0.545341 0.443483 0.000000 0.621850 -0.194079 -0.758707 0.000000 0.000000 0.000000 0.000000 1.000000 -0.387785 0.771144 -0.504936 0.000000 0.632179 0.621166 0.463145 0.000000 0.670800 -0.139609 -0.728379 0.000000 0.000000 0.000000 0.000000 1.000000 -0.444425 0.743870 -0.499142 0.000000 0.603511 0.660393 0.446829 0.000000 0.662013 -0.102656 -0.742429 0.000000 0.000000 0.000000 0.000000 1.000000 -0.516852 0.710970 -0.476849 0.000000 0.584741 0.700027 0.409926 0.000000 0.625253 -0.066962 -0.777544 0.000000 0.000000 0.000000 0.000000 1.000000 -0.590941 0.679244 -0.435219 0.000000 0.578454 0.732819 0.358283 0.000000 0.562299 -0.040031 -0.825965 0.000000 0.000000 0.000000 0.000000 1.000000 -0.660707 0.647340 -0.380023 0.000000 0.574243 0.761930 0.299513 0.000000 0.483437 -0.020335 -0.875143 0.000000 0.000000 0.000000 0.000000 1.000000 -0.719010 0.618194 -0.317587 0.000000 0.569420 0.785988 0.240798 0.000000 0.398479 -0.007704 -0.917145 0.000000 0.000000 0.000000 0.000000 1.000000 -0.762840 0.592972 -0.257797 0.000000 0.561588 0.805223 0.190356 0.000000 0.320460 0.000435 -0.947262 0.000000 0.000000 0.000000 0.000000 1.000000 -0.791613 0.573263 -0.211464 0.000000 0.551600 0.819341 0.156262 0.000000 0.262841 0.007055 -0.964813 0.000000 0.000000 0.000000 0.000000 1.000000 -0.799172 0.566643 -0.200598 0.000000 0.546182 0.823885 0.151325 0.000000 0.251017 0.011372 -0.967916 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_fc_01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_fc_01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_fc_01_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_fc_01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_fc_01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_fc_01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_fc_01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_fc_01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_fc_01_Transform_sampler" target="Bone_fc_01/Transform" />
+    </animation>
+    <animation id="Bone_fc_02_Transform" name="Bone_fc_02_Transform">
+      <source id="Bone_fc_02_Transform-inputs" name="inputs">
+        <float_array id="Bone_fc_02_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_fc_02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_fc_02_Transform-outputs" name="outputs">
+        <float_array id="Bone_fc_02_Transform-outputs-array" count="256">0.977884 -0.161456 0.132944 0.000000 0.164586 0.986279 -0.012826 0.000000 -0.129049 0.034423 0.991041 0.000000 0.000000 0.000000 0.000000 1.000000 0.977630 -0.161456 0.134805 0.000000 0.164610 0.986279 -0.012513 0.000000 -0.130935 0.034423 0.990793 0.000000 0.000000 0.000000 0.000000 1.000000 0.977528 -0.161461 0.135536 0.000000 0.164624 0.986279 -0.012390 0.000000 -0.131676 0.034424 0.990695 0.000000 0.000000 0.000000 0.000000 1.000000 0.977300 -0.161458 0.137174 0.000000 0.164641 0.986279 -0.012114 0.000000 -0.133336 0.034423 0.990473 0.000000 0.000000 0.000000 0.000000 1.000000 0.977058 -0.161456 0.138890 0.000000 0.164661 0.986279 -0.011825 0.000000 -0.135075 0.034423 0.990237 0.000000 0.000000 0.000000 0.000000 1.000000 0.976826 -0.161456 0.140510 0.000000 0.164680 0.986279 -0.011552 0.000000 -0.136717 0.034423 0.990012 0.000000 0.000000 0.000000 0.000000 1.000000 0.976646 -0.161457 0.141752 0.000000 0.164696 0.986279 -0.011342 0.000000 -0.137976 0.034423 0.989837 0.000000 0.000000 0.000000 0.000000 1.000000 0.976617 -0.161458 0.141951 0.000000 0.164699 0.986279 -0.011309 0.000000 -0.138177 0.034424 0.989809 0.000000 0.000000 0.000000 0.000000 1.000000 0.976604 -0.161458 0.142045 0.000000 0.164700 0.986279 -0.011293 0.000000 -0.138273 0.034423 0.989796 0.000000 0.000000 0.000000 0.000000 1.000000 0.976464 -0.161458 0.143000 0.000000 0.164711 0.986279 -0.011132 0.000000 -0.139241 0.034423 0.989660 0.000000 0.000000 0.000000 0.000000 1.000000 0.976338 -0.161458 0.143860 0.000000 0.164721 0.986279 -0.010987 0.000000 -0.140112 0.034423 0.989537 0.000000 0.000000 0.000000 0.000000 1.000000 0.976285 -0.161458 0.144221 0.000000 0.164724 0.986279 -0.010926 0.000000 -0.140478 0.034423 0.989485 0.000000 0.000000 0.000000 0.000000 1.000000 0.976398 -0.161454 0.143456 0.000000 0.164713 0.986280 -0.011054 0.000000 -0.139703 0.034423 0.989595 0.000000 0.000000 0.000000 0.000000 1.000000 0.976749 -0.161458 0.141039 0.000000 0.164689 0.986279 -0.011463 0.000000 -0.137253 0.034424 0.989938 0.000000 0.000000 0.000000 0.000000 1.000000 0.977416 -0.161438 0.136367 0.000000 0.164611 0.986283 -0.012247 0.000000 -0.132520 0.034418 0.990583 0.000000 0.000000 0.000000 0.000000 1.000000 0.977922 -0.161458 0.132663 0.000000 0.164585 0.986279 -0.012874 0.000000 -0.128764 0.034424 0.991078 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_fc_02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_fc_02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_fc_02_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_fc_02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_fc_02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_fc_02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_fc_02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_fc_02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_fc_02_Transform_sampler" target="Bone_fc_02/Transform" />
+    </animation>
+    <animation id="Bone_fc_03_Transform" name="Bone_fc_03_Transform">
+      <source id="Bone_fc_03_Transform-inputs" name="inputs">
+        <float_array id="Bone_fc_03_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_fc_03_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_fc_03_Transform-outputs" name="outputs">
+        <float_array id="Bone_fc_03_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_fc_03_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_fc_03_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_fc_03_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_fc_03_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_fc_03_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_fc_03_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_fc_03_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_fc_03_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_fc_03_Transform_sampler" target="Bone_fc_03/Transform" />
+    </animation>
+    <animation id="Bone_hf_01_Transform" name="Bone_hf_01_Transform">
+      <source id="Bone_hf_01_Transform-inputs" name="inputs">
+        <float_array id="Bone_hf_01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_hf_01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_hf_01_Transform-outputs" name="outputs">
+        <float_array id="Bone_hf_01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_hf_01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_hf_01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_hf_01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_hf_01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_hf_01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_hf_01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_hf_01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_hf_01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_hf_01_Transform_sampler" target="Bone_hf_01/Transform" />
+    </animation>
+    <animation id="Bone_hf_02_Transform" name="Bone_hf_02_Transform">
+      <source id="Bone_hf_02_Transform-inputs" name="inputs">
+        <float_array id="Bone_hf_02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_hf_02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_hf_02_Transform-outputs" name="outputs">
+        <float_array id="Bone_hf_02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_hf_02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_hf_02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_hf_02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_hf_02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_hf_02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_hf_02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_hf_02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_hf_02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_hf_02_Transform_sampler" target="Bone_hf_02/Transform" />
+    </animation>
+    <animation id="Bone_l_lega01_Transform" name="Bone_l_lega01_Transform">
+      <source id="Bone_l_lega01_Transform-inputs" name="inputs">
+        <float_array id="Bone_l_lega01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_l_lega01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_l_lega01_Transform-outputs" name="outputs">
+        <float_array id="Bone_l_lega01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_l_lega01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_l_lega01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_l_lega01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_l_lega01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_l_lega01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_l_lega01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_l_lega01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_l_lega01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_l_lega01_Transform_sampler" target="Bone_l_lega01/Transform" />
+    </animation>
+    <animation id="Bone_l_lega02_Transform" name="Bone_l_lega02_Transform">
+      <source id="Bone_l_lega02_Transform-inputs" name="inputs">
+        <float_array id="Bone_l_lega02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_l_lega02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_l_lega02_Transform-outputs" name="outputs">
+        <float_array id="Bone_l_lega02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_l_lega02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_l_lega02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_l_lega02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_l_lega02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_l_lega02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_l_lega02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_l_lega02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_l_lega02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_l_lega02_Transform_sampler" target="Bone_l_lega02/Transform" />
+    </animation>
+    <animation id="Bone_la_01_Transform" name="Bone_la_01_Transform">
+      <source id="Bone_la_01_Transform-inputs" name="inputs">
+        <float_array id="Bone_la_01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_la_01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_la_01_Transform-outputs" name="outputs">
+        <float_array id="Bone_la_01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_la_01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_la_01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_la_01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_la_01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_la_01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_la_01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_la_01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_la_01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_la_01_Transform_sampler" target="Bone_la_01/Transform" />
+    </animation>
+    <animation id="Bone_la_02_Transform" name="Bone_la_02_Transform">
+      <source id="Bone_la_02_Transform-inputs" name="inputs">
+        <float_array id="Bone_la_02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_la_02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_la_02_Transform-outputs" name="outputs">
+        <float_array id="Bone_la_02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_la_02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_la_02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_la_02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_la_02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_la_02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_la_02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_la_02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_la_02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_la_02_Transform_sampler" target="Bone_la_02/Transform" />
+    </animation>
+    <animation id="Bone_r_lega01_Transform" name="Bone_r_lega01_Transform">
+      <source id="Bone_r_lega01_Transform-inputs" name="inputs">
+        <float_array id="Bone_r_lega01_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_r_lega01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_r_lega01_Transform-outputs" name="outputs">
+        <float_array id="Bone_r_lega01_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_r_lega01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_r_lega01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_r_lega01_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_r_lega01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_r_lega01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_r_lega01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_r_lega01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_r_lega01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_r_lega01_Transform_sampler" target="Bone_r_lega01/Transform" />
+    </animation>
+    <animation id="Bone_r_lega02_Transform" name="Bone_r_lega02_Transform">
+      <source id="Bone_r_lega02_Transform-inputs" name="inputs">
+        <float_array id="Bone_r_lega02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_r_lega02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_r_lega02_Transform-outputs" name="outputs">
+        <float_array id="Bone_r_lega02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_r_lega02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_r_lega02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_r_lega02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_r_lega02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_r_lega02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_r_lega02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_r_lega02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_r_lega02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_r_lega02_Transform_sampler" target="Bone_r_lega02/Transform" />
+    </animation>
+    <animation id="Bone_ra_01_Transform" name="Bone_ra_01_Transform">
+      <source id="Bone_ra_01_Transform-inputs" name="inputs">
+        <float_array id="Bone_ra_01_Transform-inputs-array" count="16">0.000000 0.062500 0.093750 0.125000 0.156250 0.187500 0.218750 0.250000 0.281250 0.312500 0.343750 0.375000 0.406250 0.437500 0.468750 0.500000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_ra_01_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_ra_01_Transform-outputs" name="outputs">
+        <float_array id="Bone_ra_01_Transform-outputs-array" count="256">0.321590 0.707271 -0.629561 0.000000 0.450404 0.470582 0.758741 0.000000 0.832896 -0.527561 -0.167223 0.000000 0.000000 0.000000 0.000000 1.000000 0.429750 0.645453 -0.631432 0.000000 0.543781 0.373265 0.751648 0.000000 0.720845 -0.666381 -0.190574 0.000000 0.000000 0.000000 0.000000 1.000000 0.510589 0.581454 -0.633412 0.000000 0.597641 0.289627 0.747624 0.000000 0.618162 -0.760281 -0.199620 0.000000 0.000000 0.000000 0.000000 1.000000 0.594969 0.491645 -0.635844 0.000000 0.638891 0.190715 0.745283 0.000000 0.487679 -0.849655 -0.200638 0.000000 0.000000 0.000000 0.000000 1.000000 0.666214 0.389087 -0.636216 0.000000 0.658311 0.094022 0.746851 0.000000 0.350408 -0.916391 -0.193501 0.000000 0.000000 0.000000 0.000000 1.000000 0.716787 0.289796 -0.634220 0.000000 0.659614 0.013136 0.751490 0.000000 0.226110 -0.956998 -0.181738 0.000000 0.000000 0.000000 0.000000 1.000000 0.746549 0.211623 -0.630778 0.000000 0.651957 -0.043548 0.757005 0.000000 0.132731 -0.976381 -0.170480 0.000000 0.000000 0.000000 0.000000 1.000000 0.755059 0.184355 -0.629205 0.000000 0.647835 -0.061985 0.759255 0.000000 0.100971 -0.980903 -0.166234 0.000000 0.000000 0.000000 0.000000 1.000000 0.753110 0.190878 -0.629596 0.000000 0.648881 -0.057644 0.758703 0.000000 0.108527 -0.979920 -0.167269 0.000000 0.000000 0.000000 0.000000 1.000000 0.752460 0.193015 -0.629721 0.000000 0.649216 -0.056218 0.758523 0.000000 0.111005 -0.979584 -0.167611 0.000000 0.000000 0.000000 0.000000 1.000000 0.750123 0.200550 -0.630155 0.000000 0.650363 -0.051146 0.757900 0.000000 0.119767 -0.978347 -0.168796 0.000000 0.000000 0.000000 0.000000 1.000000 0.747308 0.209341 -0.630641 0.000000 0.651633 -0.045169 0.757189 0.000000 0.130025 -0.976799 -0.170168 0.000000 0.000000 0.000000 0.000000 1.000000 0.743476 0.220844 -0.631245 0.000000 0.653182 -0.037238 0.756285 0.000000 0.143515 -0.974598 -0.171937 0.000000 0.000000 0.000000 0.000000 1.000000 0.738824 0.234181 -0.631900 0.000000 0.654813 -0.027896 0.755276 0.000000 0.159244 -0.971793 -0.173955 0.000000 0.000000 0.000000 0.000000 1.000000 0.733215 0.249446 -0.632592 0.000000 0.656456 -0.016998 0.754173 0.000000 0.177373 -0.968240 -0.176214 0.000000 0.000000 0.000000 0.000000 1.000000 0.729982 0.257890 -0.632944 0.000000 0.657257 -0.010883 0.753588 0.000000 0.187454 -0.966113 -0.177445 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_ra_01_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_ra_01_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_ra_01_Transform-interpolations-array" count="16">LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="16" source="#Bone_ra_01_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_ra_01_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_ra_01_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_ra_01_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_ra_01_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_ra_01_Transform_sampler" target="Bone_ra_01/Transform" />
+    </animation>
+    <animation id="Bone_ra_02_Transform" name="Bone_ra_02_Transform">
+      <source id="Bone_ra_02_Transform-inputs" name="inputs">
+        <float_array id="Bone_ra_02_Transform-inputs-array" count="2">0.000000 0.500000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_ra_02_Transform-inputs-array">
+            <param name="TIME" type="float" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_ra_02_Transform-outputs" name="outputs">
+        <float_array id="Bone_ra_02_Transform-outputs-array" count="32">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</float_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_ra_02_Transform-outputs-array" stride="16">
+            <param name="TRANSFORM" type="float4x4" />
+          </accessor>
+        </technique_common>
+      </source>
+      <source id="Bone_ra_02_Transform-interpolations" name="interpolations">
+        <Name_array id="Bone_ra_02_Transform-interpolations-array" count="2">LINEAR LINEAR</Name_array>
+        <technique_common>
+          <accessor count="2" source="#Bone_ra_02_Transform-interpolations-array">
+            <param name="INTERPOLATION" type="name" />
+          </accessor>
+        </technique_common>
+      </source>
+      <sampler id="Bone_ra_02_Transform_sampler">
+        <input semantic="INPUT" source="#Bone_ra_02_Transform-inputs" />
+        <input semantic="OUTPUT" source="#Bone_ra_02_Transform-outputs" />
+        <input semantic="INTERPOLATION" source="#Bone_ra_02_Transform-interpolations" />
+      </sampler>
+      <channel source="#Bone_ra_02_Transform_sampler" target="Bone_ra_02/Transform" />
+    </animation>
+  </library_animations>
+  <library_animation_clips>
+    <animation_clip id="D:\Work file\Ymir\Metin2\õ�ǵ���\�׸������\skipia_footman\õ�Ǳ�����_back_damage.max_Animation" name="D_x003A__x005C_Work_x0020_file_x005C_Ymir_x005C_Metin2_x005C_õ_xFFFD_ǵ_xFFFD__xFFFD__xFFFD__x005C__xFFFD__x05F8__xFFFD__xFFFD__xFFFD__xFFFD__xFFFD__xFFFD__x005C_skipia_footman_x005C_õ_xFFFD__x01F1__xFFFD__xFFFD__xFFFD__xFFFD__xFFFD__back_damage.max" end="0.5">
+      <instance_animation url="#Bone_Bip01_Transform" />
+      <instance_animation url="#Bone_Bip01_Head_Transform" />
+      <instance_animation url="#Bone_Bip01_HeadNub_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Calf_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Clavicle_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger0_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger01_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger02_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger0Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger1_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger11_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger12_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger1Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger2_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger21_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger22_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Finger2Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Foot_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Forearm_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Hand_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Thigh_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Toe0_Transform" />
+      <instance_animation url="#Bone_Bip01_L_Toe0Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_L_UpperArm_Transform" />
+      <instance_animation url="#Bone_Bip01_Neck_Transform" />
+      <instance_animation url="#Bone_Bip01_Pelvis_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Calf_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Clavicle_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger0_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger01_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger02_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger0Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger1_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger11_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger12_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger1Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger2_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger21_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger22_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Finger2Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Foot_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Forearm_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Hand_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Thigh_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Toe0_Transform" />
+      <instance_animation url="#Bone_Bip01_R_Toe0Nub_Transform" />
+      <instance_animation url="#Bone_Bip01_R_UpperArm_Transform" />
+      <instance_animation url="#Bone_Bip01_Spine_Transform" />
+      <instance_animation url="#Bone_Bip01_Spine1_Transform" />
+      <instance_animation url="#Bone_Plane01_Transform" />
+      <instance_animation url="#Bone_equip_right_Transform" />
+      <instance_animation url="#Bone_fc_01_Transform" />
+      <instance_animation url="#Bone_fc_02_Transform" />
+      <instance_animation url="#Bone_fc_03_Transform" />
+      <instance_animation url="#Bone_hf_01_Transform" />
+      <instance_animation url="#Bone_hf_02_Transform" />
+      <instance_animation url="#Bone_l_lega01_Transform" />
+      <instance_animation url="#Bone_l_lega02_Transform" />
+      <instance_animation url="#Bone_la_01_Transform" />
+      <instance_animation url="#Bone_la_02_Transform" />
+      <instance_animation url="#Bone_r_lega01_Transform" />
+      <instance_animation url="#Bone_r_lega02_Transform" />
+      <instance_animation url="#Bone_ra_01_Transform" />
+      <instance_animation url="#Bone_ra_02_Transform" />
+    </animation_clip>
+  </library_animation_clips>
+  <library_visual_scenes>
+    <visual_scene id="DefaultVisualScene" name="unnamed" />
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#DefaultVisualScene" />
+  </scene>
+</COLLADA>

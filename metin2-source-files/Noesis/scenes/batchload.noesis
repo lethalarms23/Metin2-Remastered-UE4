@@ -1,0 +1,64 @@
+NOESIS_SCENE_FILE
+version 1
+physicslib		""
+defaultAxis		"0"
+
+object
+{
+	name		"node0"
+	model		"D:\ymir work\zone\castle\buildings\md_a.GR2"
+}
+object
+{
+	name		"node1"
+	model		"D:\ymir work\zone\castle\buildings\md_b.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node2"
+	model		"D:\ymir work\zone\castle\buildings\md_c.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node3"
+	model		"D:\ymir work\zone\castle\buildings\md_d.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node4"
+	model		"D:\ymir work\zone\castle\buildings\md_e.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node5"
+	model		"D:\ymir work\zone\castle\buildings\md_f.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node6"
+	model		"D:\ymir work\zone\castle\buildings\md_g.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node7"
+	model		"D:\ymir work\zone\castle\buildings\md_h.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node8"
+	model		"D:\ymir work\zone\castle\buildings\md_i.GR2"
+	mergeTo		"node0"
+}
+object
+{
+	name		"node9"
+	model		"D:\ymir work\zone\castle\buildings\md_j.GR2"
+	mergeTo		"node0"
+}
